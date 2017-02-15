@@ -1,0 +1,20 @@
+section {
+    padding: 2em;
+}
+
+.fa {
+    font-size: 1.5em;
+}
+
+.trapezoid {
+    height: 0;
+    width: 60%;
+    border-bottom: 55em solid #ec3504;
+    border-left: 25em solid transparent;
+    border-right: 0em solid transparent;
+    float: right;
+}
+
+.display {
+    display: none;
+}
