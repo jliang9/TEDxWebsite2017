@@ -1,6 +1,13 @@
-section {
-    padding: 2em;
+/* Important Roboto Fonts */
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
 }
+
+/*section {
+    padding: 2em;
+}*/
 
 .fa {
     font-size: 1.5em;
@@ -17,4 +24,24 @@ section {
 
 .display {
     display: none;
+}
+
+.hr-red {
+	border-top: 8px solid #FF2B06;
+	width: 100px;
+}
+
+/* About page */
+.team-info {
+	margin: 0% 1% 40px 1%;
+	width: 23%;
+}
+
+.team-thumbnail {
+	background-color: gray;
+	height: 240px;
+}
+
+.team-name {
+	text-align: center;
 }
