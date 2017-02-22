@@ -33,10 +33,6 @@ section {
     z-index: 11; /* 1px higher than the overlay layer */
 }
 
-.show {
-    display: inline;
-}
-
 .hide {
     display: none;
 }
