@@ -14,3 +14,21 @@ section {
     border-right: 0em solid transparent;
     float: right;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.modal {
+    display: inline;
+    left: initial;
+    position: fixed;
+    top: initial;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
