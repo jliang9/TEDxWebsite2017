@@ -9,7 +9,7 @@ section {
 .trapezoid {
     height: 0;
     width: 60%;
-    border-bottom: 55em solid #ec3504;
+    border-bottom: 100vh solid #ec3504;
     border-left: 25em solid transparent;
     border-right: 0em solid transparent;
     float: right;
@@ -22,6 +22,7 @@ section {
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
+    position: fixed;
     z-index: 10;
 }
 
@@ -35,4 +36,64 @@ section {
 
 .hide {
     display: none;
+}
+
+.navbar {
+    background: none;
+}
+
+body {
+    font-family: Roboto !important;
+}
+
+.active {
+    background: none;
+    font-weight: bold;
+    color: red !important;
+}
+
+li a {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: red;
+    background: none;
+    font-weight: bold;
+}
+
+section h2 {
+    font-weight: 700;
+}
+
+div.mdl-card__media img {
+    position: relative;
+    width: 90%;
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mdl-card__media {
+    background-color: transparent !important;
+}
+
+@media (min-width: 840px) {
+    .mdl-cell.mdl-cell--4-col.demo-card-wide.mdl-card.mdl-shadow--2dp  {
+        width: 30%;
+        margin: 1.5%;
+        padding: 1em;
+    }
+}
+
+
+#navbar-year {
+    border: none;
+
+}
+
+#navbar-main {
+
 }

@@ -18,35 +18,32 @@ for (var i = 0; i < readMore.length; i++) {
     addHide(button);
 }
 
-/* var years = [document.querySelector("#2017"), document.querySelector("#2016"), document.querySelector("#2015"), document.querySelector("#2014")];
-var allSpeakers = document.querySelectorAll(".mdl-card")
-for (var j = 0; j < years.length; j++) {
-    var year = years[i];
-    var cssVar = 2017 - i;
-    year.addEventListener("click", function showSpeakers() {
-        makeInactive(years, cssVar);
-        showSpeakersHelper("speaker-" + cssVar);
+var years = [document.querySelector("#year-2017"), document.querySelector("#year-2016"), document.querySelector("#year-2015"), document.querySelector("#year-2014"), document.querySelector("#year-2013"), document.querySelector("#year-2012")];
+var allSpeakers = document.querySelectorAll(".mdl-cell.mdl-cell--4-col.demo-card-wide.mdl-card.mdl-shadow--2dp");
+
+for (var i = 0; i < years.length; i++) {
+    years[i].addEventListener("click", function showSpeakersByYear() {
+        var classListLength = this.classList.length;
+        showActiveYear(this);
+        showSpeakers(2017 - years.indexOf(this));
     });
 }
 
-function makeInactive(array, activeName) {
-    for (var i = 0; i < array.length; i++) {
-        var item = array[i];
-        if (item.id == activeName) {
-            item.classList.add("active");
-        } else {
-            item.classList.remove("active");
-        }
+function showActiveYear(year) {
+    for (var j = 0; j < years.length; j++) {
+        years[j].classList.remove("active");
     }
+    year.classList.add("active");
+
 }
 
-function showSpeakersHelper(className) {
-    for (int i = 0; i < allSpeakers.length; i++) {
+function showSpeakers(speakerYear) {
+    for (var i = 0; i < allSpeakers.length; i++) {
         var speaker = allSpeakers[i];
-        if (speaker.classList.contains(className)) {
+        if (speaker.classList.contains("speaker-" + speakerYear)) {
             speaker.classList.remove("hide");
         } else {
             speaker.classList.add("hide");
         }
     }
-} */
+}
