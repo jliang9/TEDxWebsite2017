@@ -1,18 +1,114 @@
-section {
-    padding: 2em;
+a.navbar-brand > img {
+    display: none;
+}
+
+@media (min-width: 990px) {
+    a.navbar-brand > img {
+        display:block;
+        height: 1.8em;
+        position: absolute;
+        left: 50%;
+        margin-left: -50px !important;  /* 50% of your logo width */
+        margin-top: -0.4vh;
+    }
+}
+
+.active {
+    background: none;
+    color: #ec3504 !important;
+    font-weight: bold;
+}
+
+body {
+    font-family: Roboto !important;
+}
+
+div.mdl-card__media img {
+    position: relative;
+    width: 90%;
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.mdl-card__supporting-text > h6 {
+    margin-top: 0px;
+    color: #ec3504;
+    line-height: 130%;
+}
+
+div.mdl-card__supporting-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+div.mdl-card__title > h2 {
+    font-weight:400;
+    font-size: 2em;
+    display:block;
 }
 
 .fa {
     font-size: 1.5em;
 }
 
-.trapezoid {
-    height: 0;
-    width: 60%;
-    border-bottom: 100vh solid #ec3504;
-    border-left: 25em solid transparent;
-    border-right: 0em solid transparent;
-    float: right;
+.hide {
+    display: none;
+}
+
+li a {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.line {
+    background-color: #ec3504;
+    height: 1em;
+    margin-bottom: 1vw;
+    width: 6em;
+}
+
+.mdl-card__media {
+    background-color: transparent !important;
+}
+
+@media (min-width: 840px) {
+    .mdl-cell.mdl-cell--4-col.demo-card-wide.mdl-card.mdl-shadow--2dp  {
+        width: 30%;
+        margin: 1.5%;
+        padding: 1em;
+        height: auto;
+    }
+}
+
+.modal {
+    display: inline;
+    left: initial;
+    position: fixed;
+    top: initial;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+.navbar {
+    background: none;
+    position: relative;
+}
+
+.navbar, #year-2017 > a {
+    padding-left: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: #ec3504;
+    background: none;
+    font-weight: bold;
+}
+
+#navbar-year {
+    border: none;
+    color: red;
+    margin-top: 2em;
 }
 
 .overlay {
@@ -26,74 +122,21 @@ section {
     z-index: 10;
 }
 
-.modal {
-    display: inline;
-    left: initial;
-    position: fixed;
-    top: initial;
-    z-index: 11; /* 1px higher than the overlay layer */
-}
 
-.hide {
-    display: none;
-}
-
-.navbar {
-    background: none;
-}
-
-body {
-    font-family: Roboto !important;
-}
-
-.active {
-    background: none;
-    font-weight: bold;
-    color: red !important;
-}
-
-li a {
-    font-weight: 300;
-    font-size: 1.2em;
-}
-
-.navbar-default .navbar-nav>.active>a {
-    color: red;
-    background: none;
-    font-weight: bold;
+section {
+    padding: 2em;
 }
 
 section h2 {
     font-weight: 700;
+    margin-bottom: 0.25em;
 }
 
-div.mdl-card__media img {
-    position: relative;
-    width: 90%;
-    display: block;
-    margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mdl-card__media {
-    background-color: transparent !important;
-}
-
-@media (min-width: 840px) {
-    .mdl-cell.mdl-cell--4-col.demo-card-wide.mdl-card.mdl-shadow--2dp  {
-        width: 30%;
-        margin: 1.5%;
-        padding: 1em;
-    }
-}
-
-
-#navbar-year {
-    border: none;
-
-}
-
-#navbar-main {
-
+.trapezoid {
+    height: 0;
+    width: 60%;
+    border-bottom: 100vh solid #ec3504;
+    border-left: 25em solid transparent;
+    border-right: 0em solid transparent;
+    float: right;
 }
