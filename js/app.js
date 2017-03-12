@@ -42,11 +42,13 @@ function createPopup(name, url, desc) {
     header.innerText = name.toUpperCase();
     var iframe = document.createElement("iframe");
     iframe.src = url;
+    var descWrapper = createParentElement(["wrapper"]); 
     var descPara = document.createElement("p");
     descPara.innerText = desc;
+    descWrapper.appendChild(descPara);
     trap.appendChild(header);
     trap.appendChild(iframe);
-    trap.appendChild(descPara);
+    trap.appendChild(descWrapper);
     returnPopup.appendChild(trap);
     return returnPopup;
 }

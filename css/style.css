@@ -99,8 +99,8 @@ li a {
     }
 }
 
-@media (max-width: 768px) {
-    .mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect {
+@media (max-width: 1100px) {
+    .mdl-card__actions.mdl-card--border {
         display: none;
     }
 }
@@ -196,6 +196,14 @@ iframe {
 
 .display {
     display: none;
+}
+
+.wrapper {
+    overflow: scroll;
+    color: white;
+    text-align: center;
+    margin-top: 2.5em;
+    height: 40vh;
 }
 
 /* Lucia's code */ 
