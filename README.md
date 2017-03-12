@@ -1,1 +1,5 @@
 # TEDxUofW Website 2017
+
+This website is the website for the upcoming TEDxUofW conference. I have been comissioned to be the web developer for the RSO. 
+
+For this challenge, I worked extensively on the speakers.html page. I implemented the design of the page from a wireframe my partner and I had created previously. I also enabled functionality to change speakers are viewed depending on the year, and implemented MDL cards for each of the speakers. When the "Read more" button is clicked, a trapezoid appears and reveals the name of the speaker, an embedded video, and a description of the spekaer. The "Read more" button is only available to users who are not on mobile, since viewing the speakers with the trapezoid was extra functionality that did not work well with the small mobile screens. Additionally, I only allowed mobile users to view speakers in 2017. This is because the functionality to see previous conferences is not necessary for mobile users and would be harder to implement. However, this website is still responsive to smaller desktop sizes. 

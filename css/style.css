@@ -1,65 +1,78 @@
-a.navbar-brand > img {
+a.navbar-brand > img, .hide {
     display: none;
 }
 
 @media (min-width: 990px) {
     a.navbar-brand > img {
-        display:block;
+        display: block;
         height: 1.8em;
-        position: absolute;
         left: 50%;
         margin-left: -50px !important;  /* 50% of your logo width */
         margin-top: -0.4vh;
+        position: absolute;
     }
 }
 
-.active {
+.active, .navbar, .navbar-default .navbar-nav>.active>a {
     background: none;
+}
+
+.active {
     color: #ec3504 !important;
-    font-weight: bold;
 }
 
 body {
     font-family: Roboto !important;
 }
 
-div.mdl-card__media img {
-    position: relative;
-    width: 90%;
+div.mdl-card__media img, div.mdl-card__title > h2 {
     display: block;
-    margin-top: 1em;
+}
+
+div.mdl-card__media img, .navbar {
+    position: relative;
+}
+
+div.mdl-card__media img, div.mdl-card__supporting-text > h6, .overlay {
+    width: 100%;
+}
+
+div.mdl-card__media img, div.mdl-card__title > h2, div.mdl-card__supporting-text > h6 {
+    margin-top: 0;
+}
+
+div.mdl-card__supporting-text > h6, div.mdl-card__title > h2 {
+    margin-left: 3%;
+}
+
+div.mdl-card__media img {
     margin-left: auto;
     margin-right: auto;
 }
 
 div.mdl-card__supporting-text > h6 {
-    margin-top: 0px;
-    color: #ec3504;
     line-height: 130%;
 }
 
 div.mdl-card__supporting-text {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: -0.75em;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 div.mdl-card__title > h2 {
-    font-weight:400;
     font-size: 2em;
-    display:block;
+    font-weight: 500;
+    line-height: 1;
 }
 
-.fa {
+.fa, .message {
     font-size: 1.5em;
 }
 
-.hide {
-    display: none;
-}
-
 li a {
-    font-weight: 300;
     font-size: 1.2em;
+    font-weight: 300;
 }
 
 .line {
@@ -73,70 +86,95 @@ li a {
     background-color: transparent !important;
 }
 
+.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect, .navbar-default .navbar-nav>.active>a, #navbar-year {
+    color: #ec3504;
+}
+
 @media (min-width: 840px) {
     .mdl-cell.mdl-cell--4-col.demo-card-wide.mdl-card.mdl-shadow--2dp  {
-        width: 30%;
-        margin: 1.5%;
-        padding: 1em;
         height: auto;
+        margin: 1.5%;
+        padding: 0;
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect {
+        display: none;
     }
 }
 
 .modal {
     display: inline;
     left: initial;
-    position: fixed;
     top: initial;
     z-index: 11; /* 1px higher than the overlay layer */
 }
 
-.navbar {
-    background: none;
-    position: relative;
-}
-
 .navbar, #year-2017 > a {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
-.navbar-default .navbar-nav>.active>a {
-    color: #ec3504;
-    background: none;
+.active, .navbar-default .navbar-nav>.active>a {
     font-weight: bold;
 }
 
 #navbar-year {
     border: none;
-    color: red;
     margin-top: 2em;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
+.overlay, .trapezoid {
     left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    position: fixed;
     z-index: 10;
 }
 
+.overlay {
+    background-color: rgba(0,0,0,0.25);
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.modal, .overlay {
+    position: fixed;
+}
 
 section {
     padding: 2em;
 }
 
-section h2 {
+section h2, .trapezoid > h2 {
     font-weight: 700;
+}
+
+section h2 {
     margin-bottom: 0.25em;
+    margin-left: 0;
 }
 
 .trapezoid {
-    height: 0;
-    width: 60%;
     border-bottom: 100vh solid #ec3504;
-    border-left: 25em solid transparent;
-    border-right: 0em solid transparent;
-    float: right;
+    border-left: 0 solid transparent;
+    border-right: 25em solid transparent;
+    height: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    width: 70%;
+}
+
+.trapezoid > h2, .trapezoid > p {
+    color: white;
+    text-align: center;
+}
+
+.trapezoid > p {
+    margin-top: 3em;
+}
+
+iframe {
+    width: 420px;
+    height: 315px;
 }
