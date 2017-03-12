@@ -154,6 +154,21 @@ section h2 {
     margin-left: 0;
 }
 
+/* Important Roboto Fonts */
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+/*section {
+    padding: 2em;
+}*/
+
+.fa {
+    font-size: 1.5em;
+}
+
 .trapezoid {
     border-bottom: 100vh solid #ec3504;
     border-left: 0 solid transparent;
@@ -177,4 +192,31 @@ section h2 {
 iframe {
     width: 420px;
     height: 315px;
+}
+
+.display {
+    display: none;
+}
+
+/* Lucia's code */ 
+.hr-red {
+	border-top: 8px solid #FF2B06;
+	width: 100px;
+}
+
+/* About page, Lucia's code*/
+.team-info {
+	margin: 0% 1% 40px 1%;
+	width: 23%;
+}
+
+/* Lucia's code */
+.team-thumbnail {
+	background-color: gray;
+	height: 240px;
+}
+
+/* Lucia's code */
+.team-name {
+	text-align: center;
 }
