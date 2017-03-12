@@ -87,245 +87,245 @@ var speakerDb = [
         "name": "Ben Wiggins",
         "speech": "Saving the Planet - Science education through practice and coaching",
         "year": 2015,
-        "video": "http://www.youtube.com/embed/dA_HiOV_Sew",
+        "video": "https://www.youtube.com/embed/dA_HiOV_Sew",
         "desc": "A lecturer in the biology department, Ben Wiggins leads large undergraduate courses in molecular and cellular biology. He also works as the Coordinator of Instruction, tying together the largest teaching department on campus by hiring, evaluating, and mentoring instructors and teaching assistants. His research in biology and education  focuses on active learning in STEM classrooms. While the innerworkings of the cell  have been a longtime passion for Ben, it is teaching that gets him up in the morning and keeps him up at night."
     },
     {
         "name": "Megan Roake",
         "speech": "Moving Forward As A Victim and Community",
         "year": 2015,
-        "video": "http://www.youtube.com/embed/hLAYyhgkTQc",
+        "video": "https://www.youtube.com/embed/hLAYyhgkTQc",
         "desc": "Born and raised in Chicagoland (Glen Ellyn), Megan Roake is a second-year undergraduate at the University of Washington, double majoring in psychology and law, and justice. She is a triplet with two brothers. Megan is not afraid to confront the difficult, controversial, and “awkward” topic of sexual assault and relationship violence. In fact, she concentrates extensively on crisis, trauma, and recovery in regards to sexual assault and mental illness; she even plans to focus her academic degrees in these matters, merging her personal experiences and professional interests. In response to her own rape, she partakes in and challenges informal and formal legal processes, prevention and advocacy organizations, and personal recovery. Her activism is grounded in her firm belief in the importance of challenging society’s ideas about consent and sexual assault itself as well as the extreme importance of creating strong and sustainable communities of survivors and allies. These ideas on trauma and healing were recently emphasized in her opinion piece featured in the University of Washington school newspaper: \"To my supporters, I couldn’t do it without you\" (UW Daily 02/27/2015)."
     },
     {
         "name": "Hollis Wong-Wear",
         "speech": "A Family Tradition",
         "year": 2015,
-        "video": "http://www.youtube.com/embed/uvjTHsgOGNs",
+        "video": "https://www.youtube.com/embed/uvjTHsgOGNs",
         "desc": "Hollis Wong-Wear is a writer, performer and creative producer in Seattle. She is the lead vocalist of the The Flavr Blue and worked with Macklemore and Ryan Lewis on their album \"The Heist,\" which was a Grammy nominee for Album of the Year. She has produced an array of live events from concerts to fundraisers to all-ages open mics, and has produced thirteen music videos including \"Thrift Shop\" by Macklemore and Ryan Lewis. With her roots in spoken word and slam poetry through the nationally-recognized Youth Speaks program, Hollis has facilitated youth creative writing workshops and mentored teenage spoken word poets, while continuing to write and perform poetry in her community and beyond. She serves on the Seattle Music Commission as well as the Seattle Center Advisory Commission and on the board of directors of 4Culture."
     },
     {
         "name": "James Sun",
         "speech": "Diversity Within: Authenticity Beyond Color or Looks",
         "year": 2015,
-        "video": "http://www.youtube.com/embed/MEclB-eXRq0",
+        "video": "https://www.youtube.com/embed/MEclB-eXRq0",
         "desc": "James Sun is a proven technology entrepreneur with international media experience – hosting his own television show, frequent Tedx speaker, radio show analyst in over 100 cities, and magazine publisher. He had his own hit program called \"Sun Tzu War on Business\" and was also a finalist on Donald Trump’s \"The Apprentice\" aired on NBC with 12 million viewers. \n He is the founder & CEO of Pirq, a loyalty application for small and medium sized businesses which was successfully acquired by one of the largest companies in the payment space. He was also the co-publisher of Koream and Audrey magazine - the longest running ethnic magazine for Asian-Americans. His newest project is as the co-founder and creator of Anomo, the newest social networking experience for college students where physical looks are hidden to encourage more authentic social interactions without prejudging a photo."
     },
     {
         "name": "Nikkita Oliver",
         "speech": "Show to Tell & Tell to Show",
         "year": 2015,
-        "video": "http://www.youtube.com/embed/Zga08P-LEj8",
+        "video": "https://www.youtube.com/embed/Zga08P-LEj8",
         "desc": "Nikkita Oliver is poet, teaching artist, community organizer, and activist working toward a Juris Doctorate (June 2015) and a Masters of Education (March 2016). She has competed in multiple National Poetry Slam Competitions and recently coached the Seattle Poetry Slam team to 7th of 72 teams at the 2015 National Poetry Slam in Oakland, CA. She has performed in venues in New York City, Seattle, Boston, Oakland, Olympia and Everett where she opened for Dr. Cornell West. Nikkita's idea worth spreading brings to light the power of art to make change. It has been said, \"In any war the first thing you do is kill off the poets and the philosophers...\" Why?, she asks. Because these are the inspirers, the preservers of culture and record, the communal conscious, the deep thinkers and movement starters, the light bearers, and whistleblowers. When we investigate the history of social change movements, we often find artists, poets and philosophers at the forefront. Art has the power to open hearts and minds in unsuspecting and powerful ways to create the necessary internal and external climate needed for individual and systemic social change."
     },
     {
         "name": "Che Sehyun",
         "speech": "Change Yourself to Change the System - because the system lives inside you",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/a_ecIy27aiQ",
+        "video": "https://www.youtube.com/embed/a_ecIy27aiQ",
         "desc": "Che graduated from the University of Washington in 2011 with degrees in English, Physiology and Comparative History of Ideas. Mired in poverty and violence as a child, homeless in the womb with no cultural roots - he has come a long way and founded a life-coaching and educational consulting organization, Experience Ease. Education transformed his life and his life’s work. During his 6 years at the UW, he continued to notice a jarring reality &ndash; people who devoted their lives to dismantling or reforming systems (racism, capitalism, imperialism, sexism, etc.) were the very ones perpetuating and reproducing them by always moving relative to them. After unsuccessful attempts at broader social change, he focused on self-development and has completely transformed his life through good thoughts, practices and ways of living based in ancient traditions such as meditation, yoga, Tai Chi, Qi Gong, Shaolin Kung Fu and Capoeira Angola Palmares. Experience Ease helps students and families use the school experience to develop more fundamental life skills. Their motto: \"we live the life we teach\" - so you know it's real."
     },
     {
         "name": "Julia Robinson",
         "speech": "",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/0ZAPUPEC510",
+        "video": "https://www.youtube.com/embed/0ZAPUPEC510",
         "desc": "Julia Robinson is the Deputy Director of Côte d'Ivoire Programs and Director of Advocacy Programs at Health Alliance International, a center of the University of Washington’s Department of Global Health. After graduating from Rice University, she joined the US Peace Corps and served over two years in Benin, at which point she likes to joke that Africa got into her blood - literally and figuratively. Since then, she obtained a Master of Social Work and Master of Public Health from the University of Washington and currently serves as a faculty member at both schools. Her work at HAI focuses on strengthening public sector health systems and scaling up accessible, integrated HIV services in the northern regions of Côte d'Ivoire. Julia's TEDx talk will explore how it’s time for us to transcend the idea that technology alone is the answer in global health and discuss some innovative ways to support the human health workers that are so critical to ensuring health for all."
     },
     {
         "name": "Simon Tam",
         "speech": "A New Slant on Racism",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/SLmNLWqSl8Y",
+        "video": "https://www.youtube.com/embed/SLmNLWqSl8Y",
         "desc": "Simon Tam is an award-winning musician, best-selling author, entrepreneur, and social justice activist. He is best known as the founder and bassist of The Slants, the world’s first and only all-Asian American dance rock band. His inspiring and unique approach to activism through the arts has been highlighted in thousands of media features across 82 countries, including: BBC World News, NPR, TIME Magazine, MTV, CBS, and the Wall Street Journal. Since 2000, he has been a performer, presenter, and keynote at events and organizations such as SXSW, Comic-Con, The Department of Defense, Stanford University, Rotary International, and over 1,200 others across North America, Europe, and Asia. You can find Simon's appearance schedule, writing, and current projects at: >www.simontam.biz"
     },
     {
         "name": "Anthony Back",
         "speech": "Communication, Empathy, & Serious Illness",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/PPTcnlsbdjk",
+        "video": "https://www.youtube.com/embed/PPTcnlsbdjk",
         "desc": "Tony is Professor of Medicine at the University of Washington, where he is a practicing oncologist and researcher. His research focuses on how doctors communicate with patients about serious illness—and it’s uncovered some crucial gaps in what doctors say and what patients retain. With funding from the National Cancer Institute, Livestrong, Robert Wood Johnson Foundation, Schwartz Center for Compassionate Healthcare, Arthur Vining Davis Foundation, and others, he is working on a new paradigm of communication. In addition, he created and launched the first iOS app, VitalTalk, designed to help doctors, available in the iTunes store. To disseminate this work, he launched the nonprofit VitalTalk, to take a social entrepreneurship approach to transforming the way doctors communicate."
     },
     {
         "name": "Ann Grabler",
         "speech": "Imagination = Innovation: The role of Adventure Playgrounds",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/2sG3sQgX7tk",
+        "video": "https://www.youtube.com/embed/2sG3sQgX7tk",
         "desc": "Ann attended Central Washington University, where she received her Bachelor’s of Science in Recreation and Tourism Management, and it was through her studies that she was first introduced to the marvels of Adventure Playgrounds. Her amazing feat was opening Washington State’s first Adventure Playground and only the fourth Adventure Playground in the United States. In fact, her work and the Adventure Playground garnered national attention, leading to a fantastic award: KaBOOM’s Playmaker of the Month (check out http://kaboom.org/ for more information). In the fall of 2009, while employed with the City of Mercer Island Parks and Recreation Department, Ann set out to open the best playground on Mercer Island. Countless hours of research leading up to the implementation and opening of the playground painted a very scary reality of modern play - it is declining and the long term effects are huge. Ann’s TEDx talk will explore the wonders of Adventure Playgrounds and the important role they have on inspiring future innovators who could create anything from inventions that curb climate change to the stories we love to get lost in. Ann promises to make you: laugh, pause to think about the role we all have in an innovative future, and instill that our imagination gives us wings even beyond childhood."
     },
     {
         "name": "Troy Osaki",
         "speech": "Transformative Storytelling: Poetry as a Tool for Liberation",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/p3KcFOZ3T4c",
+        "video": "https://www.youtube.com/embed/p3KcFOZ3T4c",
         "desc": "Troy Osaki is a writer, performer and spoken word artist from Seattle, WA. Inspired by creative storytelling, his heritage, and movements for equality, Troy approaches his art in hopes of supporting and building his community. He commits to cultivating safe space for honesty and understanding, liberation of self, and having as much fun as possible while writing and sharing poems. After discovering spoken word poetry during his time at Garfield High School, Troy began centering his focus on creative writing. He attended open mics, writing circles, and poetry slams eventually becoming the 2012 Youth Speaks Seattle and University of Washington Grand Slam Champion representing Seattle at Brave New Voices in Berkeley, CA and the College Unions Poetry Slam Invitational in New York City. In 2013 he represented Seattle as a poet and performer in Pasadena, CA for Kollaboration Star, the largest Asian American talent show in the nation. Since graduating from the University of Washington, Troy now works as a teaching artist facilitating poetry workshops at Cleveland High School and a transitional housing unit for youth known as Spruce Street Crisis Residential Center. Troy writes poetry to honor his family’s legacy, and to work in solidarity with all groups of marginalized people. He recognizes poetry as a tool for healing, empowerment, and revolution."
     },
     {
         "name": "Eric Klavins",
         "speech": "Programming Biology",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/mi12pXq_yIA",
+        "video": "https://www.youtube.com/embed/mi12pXq_yIA",
         "desc": "Eric Klavins is an associate professor of Electrical Engineering at the University of Washington in Seattle and is the Director for the University of Washington Center for Synthetic Biology. Until approximately 2008, his research was primarily in computer science and robotics. At about that time, he learned the basics of genetic engineering completely switched fields to synthetic biology and now runs an interdisciplinary group of engineers, biologists, experimentalists, and theorists -- all focused on engineering life. In particular, Eric's research concerns developing programming languages and abstractions that can be used to design, fabricate, test, and refine new organisms. Example applications include synthetic multicellular consortia that digest plant matter and produce biofuels, diagnose disease, or assemble into complex patterns and shapes. Eric is one of a new generation of new synthetic biologists eager to scale up the production of designer living organisms and put them to good use addressing pressing problems of the 21st century."
     },
     {
         "name": "Sarah Olson",
         "speech": "Sharing a Vision: Scientists and Animal Rights Activists Working Together",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/wzvlw9O3IbQ",
+        "video": "https://www.youtube.com/embed/wzvlw9O3IbQ",
         "desc": "Sarah Olson is a sophomore at the University of Washington and a Comparative History of Ideas major with a tri-focus in critical human-animal, gender and environmental studies. A lifelong interest in animal ethics has led her to explore the systems of oppression through which humans and animals interact. Sarah is especially passionate about and interested in biotechnology strategies that are superior to animal testing in predicting efficacy or toxicity of drugs or cosmetics. She believes it is crucial to develop and fund effective and affordable alternatives to animal testing in order for system-wide progress to be made. Rather than pointing blame or working against one another, researchers and animal rights activists can work together to make alternatives to animal research possible, creating a win-win solution in which more effective models can be used and fewer animals harmed."
     },
     {
         "name": "Dean Chahim",
         "speech": "The False Hope of Technology",
         "year": 2014,
-        "video": "http://www.youtube.com/embed/53iihyJ3wK0",
+        "video": "https://www.youtube.com/embed/53iihyJ3wK0",
         "desc": "Dean Chahim is an environmental engineer, educator, and community organizer from Seattle. Growing out of a disenchantment with the way engineering is taught and practiced, he recently jointly designed and taught (with Daniel Ullom) a popular seminar for engineering students at the UW on \"Engineering for Social Justice\". He has also taught an innovative course and published articles in academic and popular media on international development and global justice issues."
     },
     {
         "name": "David Coven",
         "speech": "The Cycle of Compassion",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/sspAUkoBnGk",
+        "video": "https://www.youtube.com/embed/sspAUkoBnGk",
         "desc": "David received the Costco Diversity Scholarship and a full ride to the University of Washington. After seeing just how hard it was to apply to scholarships, he created FeedMyCollegeFund, an organization whose goal is to help students find access to financial and academic resources. He strives to impart on others the notion of holding compassion close to help change the communities we live in."
     },
     {
         "name": "Judd Walson",
         "speech": "Live Without Unresolved Ambition",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/DQIFKm4DUGU",
+        "video": "https://www.youtube.com/embed/DQIFKm4DUGU",
         "desc": "Dr. Walson is a researcher evaluating HIV-1 disease progression and is working to improve standard care for the management of HIV in Kenya. In addition to working closely with the Kenyan Research Institute as a Principal Researcher, Judd has spent significant time living and working in Thailand and Nepal. Judd is also Co-Director of the Global Health Strategic Analysis and Research Training Program (START), an innovative collaboration between the Bill & Melinda Gates Foundation and UW Department of Global Health."
     },
     {
         "name": "Tai Terry",
         "speech": "I'm Going to Have a Good Day Today",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/X8s_ezqf5vU",
+        "video": "https://www.youtube.com/embed/X8s_ezqf5vU",
         "desc": "Tai Terry is a graphic designer at Make-A-Wish Alaska and Washington. Tai founded Tai Terry Design in 2009, focusing on providing graphic and web design services for local businesses. She joined the Make-A-Wish staff in 2010 and is also a former wish recipient. She currently resides in Seattle and earned her Bachelor of Arts degree in Digital Arts in 2006 from Henry Cogswell College."
     },
     {
         "name": "Luis Ortega",
         "speech": "Inspire a Movement of Possibility",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/JCLVQ4gHhq8",
+        "video": "https://www.youtube.com/embed/JCLVQ4gHhq8",
         "desc": "Luis Ortega is a leadership trainer, social entrepreneur, and passionate advocate for educational equity. Over the last eight years, Luis has worked with various school districts, higher education institutions, and organizations to develop student leadership programs, lead community engagement projects, and provide professional development training for educators. Luis is currently working with the Seattle World School and La Cima Bilingual Leadership."
     },
     {
         "name": "Philip Thurtle",
         "speech": "Careers: From a Path to a Landscape",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/OLx3sZuxYpU",
+        "video": "https://www.youtube.com/embed/OLx3sZuxYpU",
         "desc": "Phillip Thurtle is an associate professor in History and adjunct in Anthropology at the University of Washington. He has authored and co-authored multiple works, with his research focusing on the material culture of information processing, the affective-phenomenological domains of media, the role of information processing technologies in biomedical research, and theories of novelty in the life sciences. "
     },
     {
         "name": "Dorothy Bullitt",
         "speech": "Learning To Surf",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/m-W_d4NbI2A",
+        "video": "https://www.youtube.com/embed/m-W_d4NbI2A",
         "desc": "Dorothy Bullitt is a Senior Lecturer and Distinguished Practitioner who teaches courses on Leaders. Previously in her career, Bullitt served as the CEO of Habitat for Humanity of Seattle/South King County, as the COO of Harbor Properties, Inc., as an assistant state attorney general, and as a civil arbitrator, in addition to running a management consulting business and writing two bestselling books. Bullitt has long been involved in the community and has received many awards for her years of leadership as a volunteer."
     },
     {
         "name": "Jennifer Gibbons",
         "speech": "When You Know Better, You Do Better",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/Zb2-ewzRcQY",
+        "video": "https://www.youtube.com/embed/Zb2-ewzRcQY",
         "desc": "As a past Commission Director of the Q Center and current Director of Diversity Efforts for ASUW, Jennifer has worked on establishing gender-neutral housing for UW students and designing the Diversity Requirement at UW. Jennifer is a senior studying Gender, Women, and Sexuality Studies and minoring in Diversity."
     },
     {
         "name": "Grant Twitchell",
         "speech": "Intent vs. Impact",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/Rg4PqTzQKsM",
+        "video": "https://www.youtube.com/embed/Rg4PqTzQKsM",
         "desc": "Born on Bainbridge Island, Grant is a UW graduate and co-founded the Dream Project. He has worked many years as one of the Senior Admissions Counselors at UW. Through his work, Grant has reflected on such issues as identity, power dynamics, professional relationships, and the mediation of conflict."
     },
     {
         "name": "Dawn Tuason",
         "speech": "Through Voice Comes Victory",
         "year": 2013,
-        "video": "http://www.youtube.com/embed/OhoTRmcAmpM",
+        "video": "https://www.youtube.com/embed/OhoTRmcAmpM",
         "desc": "Since stepping onto the UW campus, Dawn has been very involved with the UW and Seattle community. Through her work as an Early Childhood Studies and Global Health major, she has gone on to be a teacher's assistant through the EUU at the Haring Center, started her own tutoring business, and has served as a class facilitator for the UW Dream Project. She will be attending graduate school for education next year."
     },
     {
         "name": "Mike Eisenberg",
         "speech": "Information Alchemy",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/dTpYbvmpm2o",
+        "video": "https://www.youtube.com/embed/dTpYbvmpm2o",
         "desc": "Mike focuses on the use of information and information technology by individuals and organizations to meet their information needs and manage their information more effectively and efficiently. He is nationally known for his innovative approach to information problem-solving and technology in learning and teaching: the Big6."
     },
     {
         "name": "Daniel Wageman",
         "speech": "Beneath the Tread",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/Q5CloZ0Ju4I",
+        "video": "https://www.youtube.com/embed/Q5CloZ0Ju4I",
         "desc": "Daniel is a senior at the University of Washington studying Mechanical Engineering and Electrical Engineering. Currently, he is the Technical Director of the University of Washington Formula SAE team that builds a single seater open wheel race car that takes part in annual, international collegiate competitions. "
     },
     {
         "name": "Mónica Guzmán",
         "speech": "Speak or Be Spoken For - Working Your \"Me\" Muscle",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/ujs1QcrhAbA",
+        "video": "https://www.youtube.com/embed/ujs1QcrhAbA",
         "desc": "Mónica Guzmán is a digital life columnist at GeekWire and a community strategist in media and startups."
     },
     {
         "name": "Daniela Witten",
         "speech": "ancer by Numbers",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/N8O-hBFjh7g",
+        "video": "https://www.youtube.com/embed/N8O-hBFjh7g",
         "desc": "Daniela is an Assistant Professor of Biostatistics and Adjunct Assistant Professor of Statistics at the University of Washington, and is an Affiliate Investigator at Fred Hutchinson Cancer Research Center. She earned a BS in Math and Biology and a PhD in Statistics from Stanford University. She develops machine learning algorithms that can be used in order to better understand massive data sets coming out of genomics and other fields. She is the winner of a NIH Director's Early Independence Award, and earlier this year was featured in Forbes Magazine's \"30 under 30\"."
     },
     {
         "name": "Daniel Nguyen",
         "speech": "Operation Compassion",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/AM72TzuuTmY",
+        "video": "https://www.youtube.com/embed/AM72TzuuTmY",
         "desc": "Daniel Nguyen is sophomore at the University of Washington majoring in law, societies, and justice in addition to minoring in diversity. He aspires to work with local Seattle politics in order to represent and work alongside economically disadvantaged minority communities and is currently interning at the Seattle Mayor’s office."
     },
     {
         "name": "Hans Zeiger",
         "speech": "Local Community in the Next Generation",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/Gs1loOO4YqA",
+        "video": "https://www.youtube.com/embed/Gs1loOO4YqA",
         "desc": "Hans is serving in his first term as State Representative for the 25th District (Puyallup, South Hill, Summit, Midland, Fife, Edgewood, and Milton). Outside of the legislature, Hans is a professional writer and he has authored two books about young Americans. His articles have appeared in publications like the Seattle Times, San Francisco Chronicle, Philadelphia Inquirer, Baltimore Sun, and American Legion magazine."
     },
     {
         "name": "Josh Archibald-Seiffer",
         "speech": "The New Expressivity",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/xF-dXdxgwoc",
+        "video": "https://www.youtube.com/embed/xF-dXdxgwoc",
         "desc": "Josh Archibald-Seiffer is an American pianist and composer. On the Grammy award-winning album Monsters, Inc. Scream Factory Favorites he co-wrote (with Woody Paul) the song \“A Perfect Roar\"."
     },
     {
         "name": "Kevin Birrell",
         "speech": "The Digital Athelete",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/Jp9yz3Wsrak",
+        "video": "https://www.youtube.com/embed/Jp9yz3Wsrak",
         "desc": "Kevin Birrell is a student at the University of Washington studying Computer Science and Percussion Performance in the Class of 2015. He is only one of four Tetris Grandmasters outside Japan in the world, and has a passion for e-Sports and competitive gaming."
     },
     {
         "name": "Andrew Mak",
         "speech": "Philosophy of a Wanderer",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/vvulZRu4y08",
+        "video": "https://www.youtube.com/embed/vvulZRu4y08",
         "desc": "Andrew takes an interdisciplinary approach to learning, working, and life. While studying Comparative History of Ideas at the University of Washington, he has worked for Blue Box Group, the web host for MTV.com and VH1.com, WePay, an online payments startup in Silicon Valley, and UW’s International Genetic Engineered Machines team, winner of the iGEM World Championship for bioengineering."
     },
     {
         "name": "Eugene Cho",
         "speech": "The Story of One Day's Wages",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/_2pMgtEb3lg",
+        "video": "https://www.youtube.com/embed/_2pMgtEb3lg",
         "desc": "Eugene is the co-founder and executive director of One Day’s Wages - \“a movement of People, Stories, and Actions to alleviate extreme global poverty.\” He is also the founding & lead pastor of Quest Church and the founder & executive director of Q Cafe - a non-profit community cafe and music venue in Seattle. Eugene blogs regularly on Faith, Leadership, Justice, Ministry, and utilizing social media for good."
     },
     {
         "name": "Fred Holt",
         "speech": "If You Build a Better Mousetrap",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/zHLNO07mdws",
+        "video": "https://www.youtube.com/embed/zHLNO07mdws",
         "desc": "Fred Holt is the Director for Strategic Initiatives at the University of Washington Center for Commercialization. He previously consulted for Myoonet, directed Digital Ventures at UW, founded Panthesis, and conducted IT Research at The Boeing Company. "
     },
     {
         "name": "Franck Nouyrigat",
         "speech": "What We don't Know About Entrepreneurs",
         "year": 2012,
-        "video": "http://www.youtube.com/embed/552vbaS4no8",
+        "video": "https://www.youtube.com/embed/552vbaS4no8",
         "desc": "Transforming people's lives one by one, city by city with @startupweekend. By teaching entrepreneurship the only way it can be taught : By Doing. Franck is one of the co-founders of Startup Weekend."
     }
 ];
