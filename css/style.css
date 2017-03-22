@@ -13,7 +13,12 @@ a.navbar-brand > img, .hide {
     }
 }
 
-.active, .navbar, .navbar-default .navbar-nav>.active>a {
+.active, .active:hover, .navbar, .navbar-default .navbar-nav>.active>a {
+    background: none;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ec3504;
     background: none;
 }
 
@@ -100,7 +105,7 @@ li a {
 }
 
 @media (max-width: 1100px) {
-    .mdl-card__actions.mdl-card--border {
+    .mdl-card__actions.mdl-card--border, .trapezoid, .modal {
         display: none;
     }
 }
@@ -145,8 +150,9 @@ section {
     padding: 2em;
 }
 
-section h2, .trapezoid > h2 {
+section h2, .trapezoid > h1 {
     font-weight: 700;
+    line-height: 1;
 }
 
 section h2 {
@@ -161,10 +167,6 @@ section h2 {
     font-weight: bold;
 }
 
-/*section {
-    padding: 2em;
-}*/
-
 .fa {
     font-size: 1.5em;
 }
@@ -176,22 +178,24 @@ section h2 {
     height: 0;
     padding-left: 2em;
     padding-right: 2em;
-    padding-top: 2em;
+    padding-top: 1em;
     width: 70%;
 }
 
-.trapezoid > h2, .trapezoid > p {
+.trapezoid > h1 {
     color: white;
     text-align: center;
 }
 
 .trapezoid > p {
+    font-size: 1.1em !important;
     margin-top: 3em;
 }
 
 iframe {
     width: 420px;
     height: 315px;
+    background-color: #ED8E74;
 }
 
 .display {
@@ -199,32 +203,51 @@ iframe {
 }
 
 .wrapper {
-    overflow: scroll;
     color: white;
-    text-align: center;
-    margin-top: 2.5em;
     height: 40vh;
+    margin-top: 2.5em;
+    overflow: scroll;
 }
 
-/* Lucia's code */ 
+.wrapper::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.wrapper::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.wrapper::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid #ec3504; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.wrapper::-webkit-scrollbar-track { 
+    background-color: transparent; 
+    border-radius: 8px; 
+} 
+
 .hr-red {
-	border-top: 8px solid #FF2B06;
+	border-top: 8px solid #ec3504;
 	width: 100px;
 }
 
-/* About page, Lucia's code*/
+/* About page*/
 .team-info {
 	margin: 0% 1% 40px 1%;
 	width: 23%;
 }
 
-/* Lucia's code */
 .team-thumbnail {
 	background-color: gray;
 	height: 240px;
 }
 
-/* Lucia's code */
 .team-name {
 	text-align: center;
 }
