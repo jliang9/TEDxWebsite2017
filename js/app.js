@@ -1,3 +1,6 @@
+// remove justify-content-center
+// add justify-content-end
+
 "use strict";
 
 var grid = document.querySelector(".mdl-grid");

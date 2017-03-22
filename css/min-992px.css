@@ -1,0 +1,43 @@
+/**
+ * @author shinyounglucia, Jenny Liang
+ *
+ * TedxUofW 2017 Website
+ * Custom stylesheet for medium devices (desktops, 992px and up)
+ */
+
+ @media only screen and (min-width: 992px) {
+ 	#about-ted {
+ 		padding-right: 16pt;
+ 	}
+
+ 	#footer p {
+ 		padding-top: 10pt;
+ 	}
+
+ 	#footer,
+	#navbar-main .nav,
+	.navbar-logo, .navbar-logo li, .navbar-logo a {
+		height: 40pt;
+	}
+
+ 	.main {
+ 		margin-top: 72pt;
+ 	}
+
+ 	.nav-link {
+ 		padding: 10pt 14px;
+ 	}
+
+ 	.navbar-brand img {
+ 		padding-top: 8pt;
+ 		padding-bottom: 8pt;
+ 	}
+
+ 	#navbar-main {
+ 		padding-top: 0;
+ 	}
+
+ 	#navbar-main > .row > div {
+ 		margin-top: 0;
+ 	}
+}
