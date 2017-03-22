@@ -1,0 +1,83 @@
+/**
+ * @author shinyounglucia, Jenny Liang
+ *
+ * TedxUofW 2017 Website
+ * Custom stylesheet for extra small devices (< 576px)
+ */
+#about-divider {
+	margin-top: 8pt;
+	margin-bottom: 40pt;
+}
+
+#about-teams {
+	text-align: center;
+}
+
+#about-ted > div {
+	margin-top: 16pt;
+	margin-bottom: 32pt;
+}
+
+#footer {
+	margin-top: 24pt;
+}
+
+#footer div {
+	height: inherit;
+}
+
+#footer p {
+    padding-top: 8pt;
+    margin: 0;
+}
+
+#footer .logo {
+	height: auto;
+}
+
+#footer,
+#navbar-main .nav,
+.navbar-logo, .navbar-logo li, .navbar-logo a {
+	height: 32pt;
+}
+
+#navbar-main > .row > div {
+	margin-top: 8pt;
+}
+
+.logo {
+	height: inherit;
+	width: auto;
+}
+
+#navbar-main {
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);
+	padding-bottom: 0;
+	padding-top: 8pt;
+} 
+
+.main {
+	margin-top: 160pt;
+}
+
+#speakers-years > li:first-child a {
+	padding-left: 0;
+}
+
+.speakers-card {
+	margin-bottom: 32pt;
+}
+
+#speakers-years {
+	margin-bottom: 16pt;
+}
+
+.team {
+	margin-bottom: 32pt;
+}
+
+.team-member-thumbnail {
+	background-color: #DEDEDE; /* temporary */
+	min-height: 200px;
+	min-width: 100%;
+}
