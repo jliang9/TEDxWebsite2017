@@ -15,6 +15,7 @@
 @import url("min-768px.css");
 @import url("min-992px.css");
 @import url("min-1200px.css");
+@import url("yesand.css");
 
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
@@ -61,6 +62,10 @@ h3 {
     font-weight: 700;
 }
 
+.main {
+    min-height: 100%;
+}
+
 .mdl-card {
     width: inherit;
 }
@@ -97,6 +102,17 @@ h3 {
     transition: all 0.25s ease-in-out;
 }
 
+/* using code from http://codepen.io/ritz078/pen/wMPRzr */
+.scroll-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    padding: 0 10px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
 .title {
     font-size: 3rem;
     font-weight: 900;
@@ -108,3 +124,4 @@ h3 {
     margin-top: 0;
     width: 80px;
 }
+

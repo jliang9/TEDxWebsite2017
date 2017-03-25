@@ -1,0 +1,105 @@
+/*
+** LICENSE
+** Copyright (c) 2017 by Ritesh Kumar (http://codepen.io/ritz078/pen/wMPRzr)
+** Fork of an original work by George (http://codepen.io/georgemarts/pen/JdNKBL)
+** Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+** The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+** 
+** README
+** A Pen created at CodePen.io. You can find this one at http://codepen.io/ritz078/pen/wMPRzr.
+** Forked from [George](http://codepen.io/georgemarts/)'s Pen [JdNKBL](http://codepen.io/georgemarts/pen/JdNKBL/).
+**
+** Code modified by @shinyounglucia
+*/
+
+/* Yes And Slides
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.yesand-button {
+	background-color: white;
+	border: solid 1px #e62b1e;
+	border-radius: 4pt;
+	color: #e62b1e;
+	display: inline-block;
+	margin-right: 2vw;
+	padding: 8pt;
+	text-align: center;
+			transition: all 0.175s ease-in-out;
+	-webkit-transition: all 0.175s ease-in-out;
+	width: 15vw;
+}
+
+.yesand-button:hover {
+	background-color: #e62b1e;
+	color: white;
+	text-decoration: none;
+}
+
+.yesand-section {
+	background-color: white;
+	padding: 0;
+}
+
+.yesand-text {
+	position: absolute;
+	left: 2.5vw;
+	top: 15vh;
+}
+
+.yesand-text h2 {
+	font-size: 12vw;
+	font-weight: 700;
+}
+
+
+.yesand-text h3 {
+	color: #e62b1e;
+/*	border-right: 1vw solid #e62b1e;*/
+	font-size: 8vw;
+	font-weight: 700;
+/*	letter-spacing: .1em;*/
+	margin: 0 auto;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.yesand-text img {
+	width: 35vw;
+}
+
+.yesand-trapezoid {
+    border-bottom: 100vh solid #e62b1e;
+    border-right: 0 solid transparent;
+    border-left: 40vw solid transparent;
+    height: 0;	
+}
+
+.yesand-underline {
+	background-color: black;
+	border-top: 2vh solid black;
+	margin-bottom: 10vh;
+	width: 40vw;
+}
+
+/* SLIDENAV STYLES - fullPage.js 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+	background: transparent;
+	border: 1px solid white;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	background: white;
+	box-sizing: border-box;
+	border: 1px solid white;
+}

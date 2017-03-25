@@ -24,6 +24,10 @@
  		margin-top: 72pt;
  	}
 
+ 	#main-yesand {
+ 		height: calc(100vh - 80pt);
+ 	}
+
  	.nav-link {
  		padding: 10pt 14px;
  	}
