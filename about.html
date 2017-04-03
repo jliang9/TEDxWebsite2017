@@ -135,29 +135,28 @@
                             <h2 class="mdl-card__title-text">Contact</h2>
                         </div>
                         <div class="mdl-card__supporting-text">
-                            <form action="#">
+                            <form action="https://getsimpleform.com/messages?form_api_token=4bbbd28a839b4c40ac233b842fd92e1d" method="post">
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <label class="mdl-textfield__label" for="name">Name</label>
-                                    <input class="mdl-textfield__input" type="text" id="name">
+                                    <input class="mdl-textfield__input" type="text" name="name" id="name">
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <label class="mdl-textfield__label" for="email">Email</label>
-                                    <input class="mdl-textfield__input" type="text" id="email">
+                                    <input class="mdl-textfield__input" type="text" name="email" id="email">
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <label class="mdl-textfield__label" for="subject">Subject</label>
-                                    <input class="mdl-textfield__input" type="text" id="email">
+                                    <input class="mdl-textfield__input" type="text" id="subject" id="subject">
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield">
-                                    <textarea class="mdl-textfield__input" type="text" rows= "3" id="message" ></textarea>
+                                    <textarea class="mdl-textfield__input" type="text" rows= "9" name="message" id="message" ></textarea>
                                     <label class="mdl-textfield__label" for="message">Write your message here</label>
                                 </div>
+                                <div class="mdl-card__actions mdl-card--border">
+                                    <input type="submit" value = "Send" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--raised" id="send-message">
+                                    </button>
+                                </div>
                             </form>
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--raised" id="send-message">
-                              Send
-                            </button>
                         </div>
                     </div>
                 </div>
