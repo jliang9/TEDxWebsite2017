@@ -88,7 +88,7 @@ function loadSpeakers(year) {
     var speakersFromYear = SPEAKER_DB[year];
     for (var i = 0; i < speakersFromYear.length; i++) {
         var name = speakersFromYear[i]["name"];
-        var trapezoidPopup = createPopup(name, speakersFromYear[i]["video"], speakersFromYear[i]["desc"]);
+        var trapezoidPopup = createPopup(name, year, speakersFromYear[i]["video"], speakersFromYear[i]["desc"]);
         var cell = createCell(name, year, speakersFromYear[i]["speech"], trapezoidPopup);
         toggleHide(OVERLAY, trapezoidPopup)
         BODY.appendChild(trapezoidPopup);
@@ -123,21 +123,26 @@ function createParentElement(attributes) {
 }
 
 // Creates trapezoid popup for a speaker given their name, video url, and dsecription
-function createPopup(name, url, desc) {
+function createPopup(name, year, url, desc) {
     var returnPopup = document.createElement("div");
     returnPopup.classList.add("modal", "hide");
     var trap = document.createElement("div");
     trap.classList.add("trapezoid", "hide");
     var header = document.createElement("h1");
     header.innerText = name.toUpperCase();
-    var iframe = document.createElement("iframe");
-    iframe.src = url;
+    var popupMedia;
+    if (url === "") {
+        popupMedia = createImage(name, year);
+    } else {
+        popupMedia = document.createElement("iframe");
+        popupMedia.src = url;
+    }
     var descWrapper = createParentElement(["wrapper"]); 
     var descPara = document.createElement("p");
     descPara.innerText = desc;
     descWrapper.appendChild(descPara);
     trap.appendChild(header);
-    trap.appendChild(iframe);
+    trap.appendChild(popupMedia);
     trap.appendChild(descWrapper);
     returnPopup.appendChild(trap);
     toggleHide(returnPopup, returnPopup)
@@ -147,12 +152,18 @@ function createPopup(name, url, desc) {
 // Creates image for speaker MDL card given the speaker name and year
 function createMedia(name, year) {
     var returnMedia = createParentElement(["mdl-card__media"]);
-    var img = document.createElement("img");
-    name = name.toLowerCase().replace(" ", "-");
-    img.src = "./media/speakers-" + year + "/" +  name + ".jpg";
-    img.alt = name;
+    var img = createImage(name, year);
     returnMedia.appendChild(img);
     return returnMedia;
+}
+
+// Creates an image for a speaker given their name and year
+function createImage(name, year) {
+    var returnImg = document.createElement("img");
+    name = name.toLowerCase().replace(" ", "-");
+    returnImg.src = "./media/speakers-" + year + "/" +  name + ".jpg";
+    returnImg.alt = name;
+    return returnImg
 }
 
 // Creates title for speaker MDL card given the speaker name

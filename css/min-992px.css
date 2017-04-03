@@ -65,7 +65,14 @@
 		 text-decoration: none;
 	 }
 
-	.trapezoid > iframe {
-		 margin: auto;
+	.trapezoid > img {
+		display: block;
+		height: 45vh;
+		margin: auto;
+		
+	 }
+
+	 .trapezoid > h1 {
+		 font-size: 2.5em;
 	 }
 }
