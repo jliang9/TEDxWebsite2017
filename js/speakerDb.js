@@ -1,6 +1,43 @@
 /* List of all the speakers in all the TEDxUofW conferences. */
-var speakerDb = {
-    2017: [],
+var SPEAKER_DB = {
+    2017: [
+        {
+            "name": "Erin Jones",
+            "speech": "",
+            "video": "",
+            "desc": "Rin Erin Jones has been working in and around schools for the past 25 years. She has taught in a variety of environments, from predominantly African American to predominantly White to some of the most diverse communities in the nation. Erin received an award as the Most Innovative Foreign Language Teacher in 2007, while teaching French Immersion at Stewart Middle School in Tacoma, and was the Washington State Milken Educator of the Year in 2008, while teaching at Rogers High School in Spokane. She served under two state superintendents - half a year year as a Director for Dr. Terry Bergeson and 3 years as Assistant Superintendent on the executive leadership team for Superintendent Randy Dorn. She received recognition at the White House in March of 2013 as a \"Champion of Change.\" In 2015 Erin earned recognition as PTA Educator of the Year for her testimony in the McCleary education funding case. Erin left her role as the Director of a large college-access program in Tacoma School District to pursue her campaign for Office of Superintendent of Public Instruction full-time. Erin was the first African-American woman to run for executive office in the state of Washington and lost by a mere 1%. Since she ended her campaign for office, she has spoken to over 20,000 students. Erin has two children in college, one who works full-time for Xerox, and a husband, James, who is a high school teacher in Lacey.",
+        }, 
+        {
+            "name": "Jasmin Samy",
+            "speech": "",
+            "video": "",
+            "desc": "Jasmin Samy is Civil Rights Manager at CAIR-Washington State, a chapter of America's largest Muslim civil liberties and advocacy organization. She has also pursued work on Justice and Human rights for most of her professional career spanning 20 years, including working in international development for 9 years at the United States Agency for International Development in Cairo, Egypt in addition to her experience working as an attorney. \n She is deeply passionate about reaching out to and providing civil rights support in Washington state, especially to children and families. She frequently speaks on topics including knowing one’s rights, and manages a team of more than four staff and interns who manage over 400 complaints per year. She is an expert in American Muslim civil rights, rule of law, and international human rights. \n She holds a law degree from Faculty of Law at Cairo University and a Master of Laws from Indiana University. \n Ms. Samy has a passion for squash as a sport and continues to play regularly. She is a mother of two delightful children who are very curious about her work, and make sure that she and her husband never have a dull moment.",
+        }, 
+        {
+            "name": "Jeannie Berwick",
+            "speech": "",
+            "video": "",
+            "desc": "For over 20 years Jeannie Berwick worked as lawyer, advocating for immigrants and refugees who were forced to leave their homes because of violence and poverty. In 1998, she made her first visit to Chiapas, Mexico, in response to a call for international solidarity as the region was gripped by military violence. Since then, she has returned to Chiapas once or twice a year to partner with indigenous Tseltal Maya communities. In 2006, she co-founded and currently serves as Executive Director of a nonprofit, One Equal Heart Foundation, that works with Tseltal communities to build sustainable food systems, vibrant economies, and equitable opportunities for women. Jeannie sees her work with One Equal Heart as a response to her earlier experience with immigrants and refugees who shared their stories about the agonizing decision to leave loved ones in search of safety and survival. With One Equal Heart, Jeannie can be part of the work to create sustainable alternatives so people can remain in the place they call home.",
+        }, 
+        {
+            "name": "Kelly Ogilvie",
+            "speech": "",
+            "video": "",
+            "desc": "Kelly currently serves as CEO of DeepCell Industries, a technology development company focusing on the cannabis industry. As a long-time entrepreneur and lover of science and technology, Kelly has both founded and led a variety of Seattle-based companies throughout his career, from Blue Marble Biomaterials which converts organic biomass into renewable specialty chemicals, to a social saving and payment platform called Quemulus, to a full-service digital marketing agency named Milli. \n Most recently Kelly worked as a Senior Policy Advisor to Washington State Governor Jay Inslee on economic development strategy in Washington. Kelly currently serves on the boards of the Washington Interactive Network (WIN) and the External Advisory Board for the Center for Environmental Research, Education, and Outreach (CEREO) at Washington State University. \n As DeepCell’s CEO, Kelly is responsible for setting overall strategy and direction and for allocating capital and resources to each of the company’s priorities. He leads the executive team in both work ethic and culture and is the direct liaison with the company’s investors and Advisory Board.",
+        }, 
+        {
+            "name": "Peregrine Church",
+            "speech": "",
+            "video": "",
+            "desc": "Peregrine Church is just some guy in Seattle who likes thinking of things to make the world a more interesting place. In 2013 he invented Rainworks: positive street art that appears every time it rains with the goal of making rainy days something to look forward to. In 2015, Rainworks went viral, spreading like wildfire around the internet and catapulting the idea into such glamorous internet fame that when you bring it up in conversation, someone might say, \“Oh, I think I saw that on Facebook once.\” Peregrine demands not to be taken too seriously.",
+        }, 
+        {
+            "name": "Steven Matley",
+            "speech": "",
+            "video": "",
+            "desc": "Overcoming adversity is nothing new to Steven Matly. A high school dropout turned entrepreneur, he has twice created six-figure revenue generating companies with less than $5,000 startup capital. \n Raised by a single mother in the South Seattle housing projects, Steven entered the workforce at age fifteen and quickly recognized the limited resources, mentors, and role models available to families like his in the area. In the years that followed Steven worked for both small companies and large corporations in a number of different roles. \n In 2014, Steven launched SM Diversity, a boutique hiring agency committed to helping businesses create a more diverse and inclusive workforce. By connecting them with community based organizations, subject matter experts, and experienced recruiters, his clients are able to leverage a broader network of diverse talent, ultimately resulting in an expanded marketplace. \n Steven has become one of the up and coming thought leaders in the area of diversity and inclusion employment practices. He was recently featured in the Seattle Times October 2016 issue around \“Untapped Talent\” He has both conducted and served in ground breaking workshops and panels alongside organizations such as Boeing, Microsoft, Facebook, Google, Bank Of America, Amazon, Zillow, Expedia, Comcast, IBM, and other Fortune companies. \n In his quest for continued education, Steven successfully completed his Cornell University’s online Strategic Human Resource Leadership program focusing on diversity & inclusion in the workplace.",
+        }
+    ],
     2016: [
         {
             "name": "Lynette Johnson",

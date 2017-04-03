@@ -56,4 +56,12 @@
  	#sponsors {
  		margin-top: 56px;
  	}
+
+	 #navbar-year div ul li {
+		 border-bottom: none;
+	 }
+
+	 #navbar-year div ul li:hover {
+		 text-decoration: none;
+	 }
 }
