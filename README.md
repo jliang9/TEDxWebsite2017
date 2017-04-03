@@ -1,7 +1,24 @@
 # TEDxUofW Website 2017
 
-This website is the website for the upcoming TEDxUofW conference. I have been comissioned to be the web developer for the RSO along with my partner Lucia Choi. 
+* Speakers Page:
+  * Fix scrolling in trapezoid's text div
+  * Obtaining + displaying themes
+  * Alignment of title and navbar
+  * Margins/padding between cards
+  * Margins/padding in trapezoid body
+  * Sliding animation for trapezoids
 
-For this challenge, I worked extensively on the speakers.html page by myself. On the style.css file, I labelled which code was my partner's. All other code along with all the code in app.js is mine. For the page, I implemented the design of the page from a wireframe my partner and I had created previously. I also enabled functionality to change speakers are viewed depending on the year, and implemented MDL cards for each of the speakers. When the "Read more" button is clicked, a trapezoid appears and reveals the name of the speaker, an embedded video, and a description of the spekaer. I also enabled scrolling for the description so that if the screen size got smaller, the users would still be able to read the speakers' descriptions. The "Read more" button is only available to screens larger than 1100px, since the videoes provided in the trapezoid become too narrow to watch. Also, I did this because viewing the speakers with the trapezoid was extra functionality that did not work well with the small mobile screens. Additionally, I only allowed mobile users to view speakers in 2017. This is because the functionality to see previous conferences is not necessary for mobile users and would be harder to implement. However, this website is still responsive to smaller desktop sizes. 
+* Home Page:
+  * Making home page more interactive
+  * Auto-scrollnig on home page
 
-Please note that the page does take longer to load because all of the iFrames in the page. I am planning to make the loading more efficient in the future. The link to this assignment is [here](https://jliang9.github.io/TEDxWebsite2017/speakers.html#).
+* Sponors: 
+  * Obtain rest of sponsors, input in database
+  * Render sponsors using JS
+  * Factor code!!!
+  * Add comments
+  * Stop playing videos once trapezoid is closed
+
+* About:
+  * Factor code
+  * Add comments
