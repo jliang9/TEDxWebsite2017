@@ -74,7 +74,6 @@
 	 #navbar-year div ul li:hover {
 		 text-decoration: none;
 	 }
-<<<<<<< HEAD
 
 	.trapezoid > img {
 		display: block;
@@ -112,7 +111,6 @@
 	 .team-member-thumbnail {
 		 margin-top: 1em;
 	 }
-=======
 	
 	#yesand {
 		margin-top: 0;
@@ -121,6 +119,4 @@
 	.yesand-button {
 		width: 15vw;
 	}
-
->>>>>>> lucia-work
 }
