@@ -75,4 +75,15 @@
 	 .trapezoid > h1 {
 		 font-size: 2.5em;
 	 }
+
+	 #theme {
+		 color: red;
+		 font-weight: 700;
+		 font-size: 2em;
+	 }
+
+	 #blurb {
+		 margin-left: 1.5em;
+		 margin-right: 1.5em;
+	 }
 }

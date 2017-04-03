@@ -51,6 +51,11 @@ function showActiveYear(year) {
         YEARS[i].classList.remove("active");
     }
     year.classList.add("active");
+    if (Number(year.innerText) === 2017) {
+        document.querySelector("#blurb").classList.remove("hide");
+    } else {
+        document.querySelector("#blurb").classList.add("hide");
+    }
 }
 
 // Displays all the speakers from a given year, given all the speakers that have been loaded.
