@@ -64,4 +64,8 @@
 	 #navbar-year div ul li:hover {
 		 text-decoration: none;
 	 }
+
+	.trapezoid > iframe {
+		 margin: auto;
+	 }
 }

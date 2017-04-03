@@ -71,9 +71,9 @@ h3 {
     min-height: 100%;
 }
 
-.mdl-card {
+/*.mdl-card {
     width: inherit;
-}
+}*/
 
 .mdl-color--primary {
     background-color: #e62b1e !important;

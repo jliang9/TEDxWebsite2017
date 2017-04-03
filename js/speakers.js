@@ -88,8 +88,9 @@ function loadSpeakers(year) {
     var speakersFromYear = SPEAKER_DB[year];
     for (var i = 0; i < speakersFromYear.length; i++) {
         var name = speakersFromYear[i]["name"];
-        var cell = createCell(name, year, speakersFromYear[i]["speech"]);
         var trapezoidPopup = createPopup(name, speakersFromYear[i]["video"], speakersFromYear[i]["desc"]);
+        var cell = createCell(name, year, speakersFromYear[i]["speech"], trapezoidPopup);
+        toggleHide(OVERLAY, trapezoidPopup)
         BODY.appendChild(trapezoidPopup);
         GRID.appendChild(cell);
     }
@@ -97,12 +98,13 @@ function loadSpeakers(year) {
 }
 
 // Creates and returns an MDL card for a speaker given their name, year, and name of speech
-function createCell(name, year, speechName) {
+function createCell(name, year, speechName, popup) {
     var returnCell = createParentElement(["mdl-cell", "mdl-cell--4-col", "demo-card-wide", "mdl-card", "mdl-shadow--2dp", "speaker-" + year]);
     var media = createMedia(name, year);
     var title = createTitle(name);
     var subtitle = createSubheader(speechName);
     var button = createButton();
+    toggleHide(button, popup)
     returnCell.appendChild(media);
     returnCell.appendChild(title);
     returnCell.appendChild(subtitle);
@@ -138,6 +140,7 @@ function createPopup(name, url, desc) {
     trap.appendChild(iframe);
     trap.appendChild(descWrapper);
     returnPopup.appendChild(trap);
+    toggleHide(returnPopup, returnPopup)
     return returnPopup;
 }
 
@@ -181,10 +184,14 @@ function createButton() {
     return returnButton;
 }
 
-// Allows an object and its respective popup to toggle hide
-function addHide(object, popup) {
+// Allows a given object and its respective given popup and trapezoid to toggle hide
+function toggleHide(object, popup) {
     object.addEventListener("click", function hide() {
-        overlay.classList.toggle("hide");
+        OVERLAY.classList.toggle("hide");
         popup.classList.toggle("hide");
+        // Toggle hide for popup's children
+        for (var i = 0; i < popup.childNodes.length; i++) {
+            popup.childNodes[i].classList.toggle("hide");
+        }
     });
 }
