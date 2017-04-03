@@ -24,7 +24,7 @@
 @import url("min-992px.css");
 @import url("min-1200px.css");
 
-#about-teams h3,
+#about-teams h2,
 .active a {
     font-weight: 900;
 }
@@ -33,6 +33,10 @@ body {
     background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 #footer {
@@ -65,6 +69,10 @@ body {
 
 h3 {
     font-weight: 700;
+}
+
+.hide {
+    display: none;
 }
 
 .main {

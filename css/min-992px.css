@@ -86,4 +86,19 @@
 		 margin-left: 1.5em;
 		 margin-right: 1.5em;
 	 }
+
+	 .team-member > p {
+		 margin-bottom: -0.25em;
+		 margin-top:0.25em;
+	 }
+
+	 .name {
+		 font-size: 1.25em;
+		 font-weight: 700;
+		 line-height: 1;
+	 }
+
+	 .team-member-thumbnail {
+		 margin-top: 1em;
+	 }
 }
