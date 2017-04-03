@@ -1,7 +1,3 @@
-.hide {
-    display: none;
-}
-
 @media (min-width: 990px) {
     a.navbar-brand > img {
         display: block;
@@ -13,116 +9,16 @@
 }
 
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #ec3504;
+    color: #e62b1e;
     background: none;
 }
 
-.active {
-    color: #ec3504 !important;
-}
 
-body {
-    font-family: Roboto !important;
-}
 
-div.mdl-card__media img, div.mdl-card__title > h2 {
-    display: block;
-}
 
-div.mdl-card__media img, .navbar {
-    position: relative;
-}
 
-div.mdl-card__media img, div.mdl-card__supporting-text > h6, .overlay {
-    width: 100%;
-}
 
-div.mdl-card__media img, div.mdl-card__title > h2, div.mdl-card__supporting-text > h6 {
-    margin-top: 0;
-}
 
-div.mdl-card__supporting-text > h6, div.mdl-card__title > h2 {
-    margin-left: 3%;
-}
-
-div.mdl-card__media img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.mdl-card__supporting-text > h6 {
-    line-height: 130%;
-}
-
-div.mdl-card__supporting-text {
-    margin-top: -0.75em;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-div.mdl-card__title > h2 {
-    font-size: 2em;
-    font-weight: 500;
-    line-height: 1;
-}
-
-.mdl-card__media {
-    background-color: transparent !important;
-}
-
-.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect, .navbar-default .navbar-nav>.active>a, #navbar-year {
-    color: #ec3504;
-}
-
-@media (min-width: 840px) {
-    .mdl-cell.mdl-cell--4-col.demo-card-wide.mdl-card.mdl-shadow--2dp  {
-        height: auto;
-        margin: 1.5%;
-        padding: 0;
-        width: 30%;
-    }
-}
-
-@media (max-width: 1100px) {
-    .mdl-card__actions.mdl-card--border, .trapezoid, .modal {
-        display: none;
-    }
-}
-
-.modal {
-    display: inline;
-    left: initial;
-    top: initial;
-    z-index: 11; /* 1px higher than the overlay layer */
-}
-
-.navbar, #year-2017 > a {
-    padding-left: 0;
-}
-
-.navbar-default .navbar-nav>.active>a {
-    font-weight: bold;
-}
-
-#navbar-year {
-    border: none;
-}
-
-.overlay, .trapezoid {
-    left: 0;
-    z-index: 10;
-}
-
-.overlay {
-    background-color: rgba(0,0,0,0.25);
-    height: 100%;
-    position: absolute;
-    top: 0;
-}
-
-.modal, .overlay {
-    position: fixed;
-}
 
 section {
     padding: 2em;
@@ -136,93 +32,4 @@ section h2, .trapezoid > h1 {
 section h2 {
     margin-bottom: 0.25em;
     margin-left: 0;
-}
-
-/* Important Roboto Fonts */
-@font-face {
-    font-family: Roboto-Bold;
-    src: url(fonts/Roboto/Roboto-Bold.ttf);
-    font-weight: bold;
-}
-
-.trapezoid {
-    border-bottom: 100vh solid #ec3504;
-    border-left: 0 solid transparent;
-    border-right: 25em solid transparent;
-    height: 0;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 0.75em;
-    width: 70%;
-}
-
-.trapezoid > h1 {
-    color: white;
-    text-align: center;
-}
-
-.trapezoid > p {
-    font-size: 1.1em !important;
-    margin-top: 3em;
-}
-
-iframe {
-    width: 90%;
-    height: 315px;
-    background-color: #ED8E74;
-}
-
-.display {
-    display: none;
-}
-
-.wrapper {
-    color: white;
-    height: 40vh;
-    margin-top: 2.5em;
-    overflow: scroll;
-}
-
-.wrapper::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-
-.wrapper::-webkit-scrollbar-corner {
-    background-color: transparent;
-}
-
-.wrapper::-webkit-scrollbar:vertical {
-    width: 11px;
-}
-
-.wrapper::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    border: 2px solid #ec3504; /* should match background, can't be transparent */
-    background-color: rgba(0, 0, 0, .5);
-}
-
-.wrapper::-webkit-scrollbar-track { 
-    background-color: transparent; 
-    border-radius: 8px; 
-} 
-
-.hr-red {
-	border-top: 8px solid #ec3504;
-	width: 100px;
-}
-
-/* About page*/
-.team-info {
-	margin: 0% 1% 40px 1%;
-	width: 23%;
-}
-
-.team-thumbnail {
-	background-color: gray;
-	height: 240px;
-}
-
-.team-name {
-	text-align: center;
 }
