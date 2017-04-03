@@ -146,10 +146,10 @@ var SPEAKER_DB = {
     ],
     2014: [
         {
-            "name": "Che Sehyun",
-            "speech": "Change Yourself to Change the System - because the system lives inside you",
-            "video": "https://www.youtube.com/embed/a_ecIy27aiQ",
-            "desc": "Che graduated from the University of Washington in 2011 with degrees in English, Physiology and Comparative History of Ideas. Mired in poverty and violence as a child, homeless in the womb with no cultural roots - he has come a long way and founded a life-coaching and educational consulting organization, Experience Ease. Education transformed his life and his life’s work. During his 6 years at the UW, he continued to notice a jarring reality &ndash; people who devoted their lives to dismantling or reforming systems (racism, capitalism, imperialism, sexism, etc.) were the very ones perpetuating and reproducing them by always moving relative to them. After unsuccessful attempts at broader social change, he focused on self-development and has completely transformed his life through good thoughts, practices and ways of living based in ancient traditions such as meditation, yoga, Tai Chi, Qi Gong, Shaolin Kung Fu and Capoeira Angola Palmares. Experience Ease helps students and families use the school experience to develop more fundamental life skills. Their motto: \"we live the life we teach\" - so you know it's real."
+            "name": "Eric Klavins",
+            "speech": "Programming Biology",
+            "video": "https://www.youtube.com/embed/mi12pXq_yIA",
+            "desc": "Eric Klavins is an associate professor of Electrical Engineering at the University of Washington in Seattle and is the Director for the University of Washington Center for Synthetic Biology. Until approximately 2008, his research was primarily in computer science and robotics. At about that time, he learned the basics of genetic engineering completely switched fields to synthetic biology and now runs an interdisciplinary group of engineers, biologists, experimentalists, and theorists -- all focused on engineering life. In particular, Eric's research concerns developing programming languages and abstractions that can be used to design, fabricate, test, and refine new organisms. Example applications include synthetic multicellular consortia that digest plant matter and produce biofuels, diagnose disease, or assemble into complex patterns and shapes. Eric is one of a new generation of new synthetic biologists eager to scale up the production of designer living organisms and put them to good use addressing pressing problems of the 21st century."
         },
         {
             "name": "Julia Robinson",
@@ -182,10 +182,10 @@ var SPEAKER_DB = {
             "desc": "Troy Osaki is a writer, performer and spoken word artist from Seattle, WA. Inspired by creative storytelling, his heritage, and movements for equality, Troy approaches his art in hopes of supporting and building his community. He commits to cultivating safe space for honesty and understanding, liberation of self, and having as much fun as possible while writing and sharing poems. After discovering spoken word poetry during his time at Garfield High School, Troy began centering his focus on creative writing. He attended open mics, writing circles, and poetry slams eventually becoming the 2012 Youth Speaks Seattle and University of Washington Grand Slam Champion representing Seattle at Brave New Voices in Berkeley, CA and the College Unions Poetry Slam Invitational in New York City. In 2013 he represented Seattle as a poet and performer in Pasadena, CA for Kollaboration Star, the largest Asian American talent show in the nation. Since graduating from the University of Washington, Troy now works as a teaching artist facilitating poetry workshops at Cleveland High School and a transitional housing unit for youth known as Spruce Street Crisis Residential Center. Troy writes poetry to honor his family’s legacy, and to work in solidarity with all groups of marginalized people. He recognizes poetry as a tool for healing, empowerment, and revolution."
         },
         {
-            "name": "Eric Klavins",
-            "speech": "Programming Biology",
-            "video": "https://www.youtube.com/embed/mi12pXq_yIA",
-            "desc": "Eric Klavins is an associate professor of Electrical Engineering at the University of Washington in Seattle and is the Director for the University of Washington Center for Synthetic Biology. Until approximately 2008, his research was primarily in computer science and robotics. At about that time, he learned the basics of genetic engineering completely switched fields to synthetic biology and now runs an interdisciplinary group of engineers, biologists, experimentalists, and theorists -- all focused on engineering life. In particular, Eric's research concerns developing programming languages and abstractions that can be used to design, fabricate, test, and refine new organisms. Example applications include synthetic multicellular consortia that digest plant matter and produce biofuels, diagnose disease, or assemble into complex patterns and shapes. Eric is one of a new generation of new synthetic biologists eager to scale up the production of designer living organisms and put them to good use addressing pressing problems of the 21st century."
+            "name": "Che Sehyun",
+            "speech": "Change Yourself to Change the System - because the system lives inside you",
+            "video": "https://www.youtube.com/embed/a_ecIy27aiQ",
+            "desc": "Che graduated from the University of Washington in 2011 with degrees in English, Physiology and Comparative History of Ideas. Mired in poverty and violence as a child, homeless in the womb with no cultural roots - he has come a long way and founded a life-coaching and educational consulting organization, Experience Ease. Education transformed his life and his life’s work. During his 6 years at the UW, he continued to notice a jarring reality &ndash; people who devoted their lives to dismantling or reforming systems (racism, capitalism, imperialism, sexism, etc.) were the very ones perpetuating and reproducing them by always moving relative to them. After unsuccessful attempts at broader social change, he focused on self-development and has completely transformed his life through good thoughts, practices and ways of living based in ancient traditions such as meditation, yoga, Tai Chi, Qi Gong, Shaolin Kung Fu and Capoeira Angola Palmares. Experience Ease helps students and families use the school experience to develop more fundamental life skills. Their motto: \"we live the life we teach\" - so you know it's real."
         },
         {
             "name": "Sarah Olson",
@@ -265,7 +265,7 @@ var SPEAKER_DB = {
         },
         {
             "name": "Daniela Witten",
-            "speech": "ancer by Numbers",
+            "speech": "Cancer by Numbers",
             "video": "https://www.youtube.com/embed/N8O-hBFjh7g",
             "desc": "Daniela is an Assistant Professor of Biostatistics and Adjunct Assistant Professor of Statistics at the University of Washington, and is an Affiliate Investigator at Fred Hutchinson Cancer Research Center. She earned a BS in Math and Biology and a PhD in Statistics from Stanford University. She develops machine learning algorithms that can be used in order to better understand massive data sets coming out of genomics and other fields. She is the winner of a NIH Director's Early Independence Award, and earlier this year was featured in Forbes Magazine's \"30 under 30\"."
         },
@@ -319,7 +319,7 @@ var SPEAKER_DB = {
         },
         {
             "name": "Franck Nouyrigat",
-            "speech": "What We don't Know About Entrepreneurs",
+            "speech": "What We Don't Know About Entrepreneurs",
             "video": "https://www.youtube.com/embed/552vbaS4no8",
             "desc": "Transforming people's lives one by one, city by city with @startupweekend. By teaching entrepreneurship the only way it can be taught : By Doing. Franck is one of the co-founders of Startup Weekend."
         }

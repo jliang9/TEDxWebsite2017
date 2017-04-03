@@ -4,80 +4,91 @@
  * TedxUofW 2017 Website
  * Custom stylesheet for extra small devices (< 576px)
  */
-#about-divider {
-	margin-top: 8pt;
-	margin-bottom: 40pt;
-}
 
-#about-teams {
-	text-align: center;
+ @media only screen and (max-width: 576px) {
+	.position {
+		display: none;
+	}
 }
+	#about-divider {
+		margin-top: 8pt;
+		margin-bottom: 40pt;
+	}
 
-#about-ted > div {
-	margin-top: 16pt;
-	margin-bottom: 32pt;
-}
+	#about-teams {
+		text-align: center;
+	}
 
-#footer {
-	margin-top: 24pt;
-}
+	#about-ted > div {
+		margin-top: 16pt;
+		margin-bottom: 32pt;
+	}
 
-#footer div {
-	height: inherit;
-}
+	#footer {
+		margin-top: 24pt;
+	}
 
-#footer p {
-    padding-top: 8pt;
-    margin: 0;
-}
+	#footer div {
+		height: inherit;
+	}
 
-#footer .logo {
-	height: auto;
-}
+	#footer p {
+		padding-top: 8pt;
+		margin: 0;
+	}
 
-#footer,
-#navbar-main .nav,
-.navbar-logo, .navbar-logo li, .navbar-logo a {
-	height: 32pt;
-}
+	#footer .logo {
+		height: auto;
+	}
 
-#navbar-main > .row > div {
-	margin-top: 8pt;
-}
+	#footer,
+	#navbar-main .nav,
+	.navbar-logo, .navbar-logo li, .navbar-logo a {
+		height: 32pt;
+	}
 
-.logo {
-	height: inherit;
-	width: auto;
-}
+	#navbar-main > .row > div {
+		margin-top: 8pt;
+	}
 
-#navbar-main {
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);
-	padding-bottom: 0;
-	padding-top: 8pt;
-} 
+	.logo {
+		height: inherit;
+		width: auto;
+	}
 
-.main {
-	margin-top: 160pt;
-}
+	#navbar-main {
+/*		box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);*/
+		padding-bottom: 0;
+		padding-top: 8pt;
+	} 
 
-#speakers-years > li:first-child a {
-	padding-left: 0;
-}
+	.navbar li.active {
+	    border-bottom: solid 2px #e62b1e;
+	}
 
-.speakers-card {
-	margin-bottom: 32pt;
-}
 
-#speakers-years {
-	margin-bottom: 16pt;
-}
+	.main {
+		margin-top: 160pt;
+	}
 
-.team {
-	margin-bottom: 32pt;
-}
+	#speakers-years > li:first-child a {
+		padding-left: 0;
+	}
 
-.team-member-thumbnail {
-	background-color: #DEDEDE; /* temporary */
-	min-height: 200px;
-	min-width: 100%;
-}
+	.speakers-card {
+		margin-bottom: 32pt;
+	}
+
+	#speakers-years {
+		margin-bottom: 16pt;
+	}
+
+	.team {
+		margin-bottom: 32pt;
+	}
+
+	.team-member-thumbnail {
+		background-color: #DEDEDE; /* temporary */
+		min-height: 200px;
+		min-width: 100%;
+	}
