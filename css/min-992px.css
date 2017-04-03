@@ -40,4 +40,12 @@
  	#navbar-main > .row > div {
  		margin-top: 0;
  	}
+
+	 #navbar-year div ul li {
+		 border-bottom: none;
+	 }
+
+	 #navbar-year div ul li:hover {
+		 text-decoration: none;
+	 }
 }

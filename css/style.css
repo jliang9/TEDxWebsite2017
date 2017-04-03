@@ -1,15 +1,10 @@
-a.navbar-brand > img, .hide {
+.hide {
     display: none;
 }
 
 @media (min-width: 990px) {
     a.navbar-brand > img {
         display: block;
-        height: 1.8em;
-        left: 50%;
-        margin-left: -50px !important;  /* 50% of your logo width */
-        margin-top: -0.4vh;
-        position: absolute;
     }
 }
 
@@ -71,22 +66,6 @@ div.mdl-card__title > h2 {
     line-height: 1;
 }
 
-.fa, .message {
-    font-size: 1.5em;
-}
-
-li a {
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
-.line {
-    background-color: #ec3504;
-    height: 1em;
-    margin-bottom: 1vw;
-    width: 6em;
-}
-
 .mdl-card__media {
     background-color: transparent !important;
 }
@@ -121,13 +100,12 @@ li a {
     padding-left: 0;
 }
 
-.active, .navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a {
     font-weight: bold;
 }
 
 #navbar-year {
     border: none;
-    margin-top: 2em;
 }
 
 .overlay, .trapezoid {
@@ -165,10 +143,6 @@ section h2 {
     font-family: Roboto-Bold;
     src: url(fonts/Roboto/Roboto-Bold.ttf);
     font-weight: bold;
-}
-
-.fa {
-    font-size: 1.5em;
 }
 
 .trapezoid {
