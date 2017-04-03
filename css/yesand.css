@@ -38,11 +38,6 @@
 
 /* Yes And Slides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-section[data-anchor="yesandTedxuOfW"] {z-index: 0;}
-section[data-anchor="yesandSpeakers"] {z-index: -1;}
-section[data-anchor="yesandAboutUs"] {z-index: -2;}
-section[data-anchor="yesandSponsors"] {z-index: -3;}
-
 .yesand-button {
 	background-color: white;
 	border: solid 1px #e62b1e;
@@ -73,7 +68,7 @@ section[data-anchor="yesandSponsors"] {z-index: -3;}
 }
 
 .yesand-section.active {
-	z-index: 1;
+	z-index: 3;
 }
 
 
@@ -83,11 +78,14 @@ section[data-anchor="yesandSponsors"] {z-index: -3;}
 	top: 15vh;
 }
 
+.yesand-text {
+	z-index: 2;
+}
+
 .yesand-text h2 {
 	font-size: 12vw;
 	font-weight: 700;
 }
-
 
 .yesand-text h3 {
 	color: #e62b1e;

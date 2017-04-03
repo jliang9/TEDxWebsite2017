@@ -74,4 +74,6 @@ $(function() {
 			$('#nav-socialmedia ul').addClass('justify-content-end');
 		}
 	}
+
+
 });

@@ -24,7 +24,7 @@
 @import url("min-992px.css");
 @import url("min-1200px.css");
 
-#about-teams h2,
+#about-teams h3,
 .active a {
     font-weight: 900;
 }
@@ -33,10 +33,6 @@ body {
 /*    background-color: #fafafa;*/
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-}
-
-.bold {
-    font-weight: 700;
 }
 
 #footer {
@@ -71,17 +67,13 @@ h3 {
     font-weight: 700;
 }
 
-.hide {
-    display: none;
-}
-
 .main {
     min-height: 100%;
 }
 
-/*.mdl-card {
+.mdl-card {
     width: inherit;
-}*/
+}
 
 .mdl-color--primary {
     background-color: #e62b1e !important;
@@ -101,6 +93,9 @@ h3 {
     color: #6E6E6E;
 }
 
+.navbar li.active {
+    border-bottom: solid 2px #e62b1e;
+}
 
 .navbar li.active a,
 #speakers-years li.active a {
@@ -153,13 +148,4 @@ h3 {
     margin-left: 0;
     margin-top: 0;
     width: 80px;
-}
-
-.animated {
-  -webkit-animation-duration: 0.475s;
-  animation-duration: 0.475s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
 }
