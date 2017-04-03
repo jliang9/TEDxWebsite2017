@@ -1,18 +1,10 @@
-/*
- * Copyright (c) 2017 by Jonathan White (http://codepen.io/jonathanzwhite/pen/GZVKmE)
- *
- * Modified by shinyounglucia
- */
+"use strict";
 
- $(function() {
-	"use strict";
+var SPONORS_CONTAINER = document.querySelector("#sponsors");
 
-	$(document).ready(function() {
-		$('.post-module').hover(function() {
-			$(this).find('.description').stop().animate({
-				height: "toggle",
-				opacity: "toggle"
-			}, 300);
-		});
-	});
-});
+window.onload = function() {
+	loadSponsors();
+}
+
+function loadSponsors() {
+}
