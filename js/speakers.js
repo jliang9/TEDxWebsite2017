@@ -90,7 +90,7 @@ function loadSpeakers(year) {
         var name = speakersFromYear[i]["name"];
         var cell = createCell(name, year, speakersFromYear[i]["speech"]);
         var trapezoidPopup = createPopup(name, speakersFromYear[i]["video"], speakersFromYear[i]["desc"]);
-        //BODY.appendChild(trapezoidPopup);
+        BODY.appendChild(trapezoidPopup);
         GRID.appendChild(cell);
     }
     HAS_CLICKED[2017 - year] = true;
@@ -125,7 +125,7 @@ function createPopup(name, url, desc) {
     var returnPopup = document.createElement("div");
     returnPopup.classList.add("modal", "hide");
     var trap = document.createElement("div");
-    trap.classList.add("trapezoid");
+    trap.classList.add("trapezoid", "hide");
     var header = document.createElement("h1");
     header.innerText = name.toUpperCase();
     var iframe = document.createElement("iframe");
@@ -179,4 +179,12 @@ function createButton() {
     link.innerText = "Read more";
     returnButton.appendChild(link);
     return returnButton;
+}
+
+// Allows an object and its respective popup to toggle hide
+function addHide(object, popup) {
+    object.addEventListener("click", function hide() {
+        overlay.classList.toggle("hide");
+        popup.classList.toggle("hide");
+    });
 }
