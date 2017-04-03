@@ -40,6 +40,11 @@
  		padding: 10pt 14px;
  	}
 
+	#nav-menu ul {
+		font-size: 16px;
+	}
+
+
  	.navbar-brand img {
  		padding-top: 8pt;
  		padding-bottom: 8pt;
@@ -64,4 +69,13 @@
 	 #navbar-year div ul li:hover {
 		 text-decoration: none;
 	 }
+	
+	#yesand {
+		margin-top: 0;
+	}
+
+	.yesand-button {
+		width: 15vw;
+	}
+
 }
