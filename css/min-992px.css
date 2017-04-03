@@ -10,6 +10,14 @@
  		padding-right: 16pt;
  	}
 
+ 	#about-contact {
+ 		padding: 0 32px;
+ 	}
+
+ 	.container {
+ 		width: 75%;
+ 	}
+
  	#footer p {
  		padding-top: 10pt;
  	}
@@ -21,7 +29,7 @@
 	}
 
  	.main {
- 		margin-top: 72pt;
+ 		margin-top: 136px;
  	}
 
  	#main-yesand {
@@ -43,5 +51,9 @@
 
  	#navbar-main > .row > div {
  		margin-top: 0;
+ 	}
+
+ 	#sponsors {
+ 		margin-top: 56px;
  	}
 }

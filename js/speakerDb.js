@@ -7,7 +7,7 @@ var speakerDb = {
             "speech": "Photography that Gives Expression to Love, Legacy, and Loss",
             "video": "https://www.youtube.com/embed/MozwirT5YNY?list=PLBf4scwaifhsLHRcDirVDuBA1apqGC7y6",
             "desc": "Lynette is a Seattle based photographer, wife, mother of two and the founder of the non-profit Soulumination. A Northwest native, Lynette has taken a passion for photographing people and followed it through a successful career and into the world of legacy photography. Through Soulumination and with the talent of 60 local photographers, families facing devastating loss have the opportunity to receive photo services free of charge. Lynette's diagnosis of lymphoma and its minefield of treatments and emotional issues has added a depth of compassion and understanding leading to new resolve and bolder leadership skills."
-        }/*, 
+        }, 
         {
             "name": "James Long",
             "speech": "Fighting Corruption in the Developing World",
@@ -49,7 +49,7 @@ var speakerDb = {
             "speech": "The Life Altering Power of Perspective",
             "video": "https://www.youtube.com/embed/rtv8x__01iE?list=PLBf4scwaifhsLHRcDirVDuBA1apqGC7y6",
             "desc": "Angela Francine Popplewell is a founder and the Chief Storyteller for 100cameras, a non-profit organization that teaches kids around the world that their stories matter and helps them explore their narratives in the larger context of a global world. By building a model that teaches students how to share their perspectives through photography and then sells their images, kids are empowered to become the change makers and provide much needed educational, lifeline, and medical supplies for themselves and other community members. Popplewell has lived and worked abroad with multiple educational and community development programs located in places such as Romania and India. These experiences along with others redirected her passion early on in her twenties from working towards a broadcast journalism career to instead working with kids, the power of storytelling, and local community development initiatives worldwide. Prior to 100cameras, she was one of charity:water's first interns and was Director of Development at New Life of NYC, an inner-city community center located on the Lower East Side of Manhattan. Popplewell currently lives in Brooklyn, NY with her husband, Ty, and their adorable newborn son, Theodore Brooks."
-        }*/
+        }
     ],
     2015: [
         {

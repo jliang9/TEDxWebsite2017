@@ -9,16 +9,20 @@
  * Typography: Roboto
  */
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
+/* Import other stylesheets */
+@import url('normalize.css');
+@import url("yesand.css");
+@import url('sponsors.css');
+
 /* Import all the stylesheets */
 @import url("max-576px.css");
 @import url("min-576px.css");
 @import url("min-768px.css");
 @import url("min-992px.css");
 @import url("min-1200px.css");
-@import url("yesand.css");
-
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 
 #about-teams h3,
 .active a {
@@ -26,6 +30,7 @@
 }
 
 body {
+    background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
@@ -74,6 +79,11 @@ h3 {
     background-color: #e62b1e !important;
 }
 
+.nav-link:hover {
+    color: #e62b1e;
+    font-weight: 700;  
+}
+
 .navbar {
     background-color: white;
 }
@@ -100,6 +110,15 @@ h3 {
 #nav-logo,
 #nav-socialmedia {
     transition: all 0.25s ease-in-out;
+}
+
+.sponsor-title {
+    font-weight: 700;
+}
+
+.sponsor-subtitle {
+    color: #e62b1e;
+    margin-top: 0;
 }
 
 /* using code from http://codepen.io/ritz078/pen/wMPRzr */

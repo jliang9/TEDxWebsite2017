@@ -13,8 +13,36 @@
 ** Code modified by @shinyounglucia
 */
 
+/* SLIDENAV STYLES - fullPage.js 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+	background: transparent;
+	border: 1px solid white;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	background: white;
+	box-sizing: border-box;
+	border: 1px solid white;
+}
+
 /* Yes And Slides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+section[data-anchor="yesandTedxuOfW"] {z-index: 0;}
+section[data-anchor="yesandSpeakers"] {z-index: -1;}
+section[data-anchor="yesandAboutUs"] {z-index: -2;}
+section[data-anchor="yesandSponsors"] {z-index: -3;}
+
 .yesand-button {
 	background-color: white;
 	border: solid 1px #e62b1e;
@@ -37,8 +65,17 @@
 
 .yesand-section {
 	background-color: white;
+	left: 0;
 	padding: 0;
+	position: absolute;
+	top: 0;
+	transition: 0.4s all ease-in-out;
 }
+
+.yesand-section.active {
+	z-index: 1;
+}
+
 
 .yesand-text {
 	position: absolute;
@@ -79,27 +116,4 @@
 	border-top: 2vh solid black;
 	margin-bottom: 10vh;
 	width: 40vw;
-}
-
-/* SLIDENAV STYLES - fullPage.js 
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span {
-	background: transparent;
-	border: 1px solid white;
-	width: 8px;
-	height: 8px;
-	margin: -4px 0 0 -4px;
-}
-
-#fp-nav ul li a.active span, 
-.fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
-.fp-slidesNav ul li:hover a.active span {
-	width: 16px;
-	height: 16px;
-	margin: -8px 0 0 -8px;
-	background: white;
-	box-sizing: border-box;
-	border: 1px solid white;
 }
