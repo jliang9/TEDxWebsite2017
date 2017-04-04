@@ -10,7 +10,6 @@
 		display: none;
 	}
 }
-<<<<<<< HEAD
 	#about-divider {
 		margin-top: 8pt;
 		margin-bottom: 40pt;
@@ -92,7 +91,6 @@
 		min-height: 200px;
 		min-width: 100%;
 	}
-=======
 
 .logo {
 	height: inherit;
@@ -131,6 +129,7 @@
 
 .team-member-thumbnail {
 	background-color: #DEDEDE; /* temporary */
+	background-image: url('media/team-photos/00.jpg');
 	min-height: 100;
 	min-width: 100%;
 }
