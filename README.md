@@ -11,6 +11,7 @@
 * Home Page:
   * Making home page more interactive
   * Auto-scrollnig on home page
+  * Make transitions smoother
 
 * Sponors: 
   * Obtain rest of sponsors, input in database
@@ -22,3 +23,5 @@
 * About:
   * Factor code
   * Add comments
+  * Change form buton color
+  * Prevent from submit button from disappearing on small screen sizes
