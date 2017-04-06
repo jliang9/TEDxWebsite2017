@@ -63,6 +63,7 @@ $(function() {
 		    // 		$('.yesand-text', section4).addClass('animated slideInDown');
 		    // 	}
 		    // }
+		    
 		});
 	});
 });
