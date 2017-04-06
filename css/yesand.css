@@ -38,10 +38,27 @@
 
 /* Yes And Slides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.knockout-text {
+	color: none;
+	-moz-text-fill-color: transparent; /* Will override color (regardless of order) */
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+}
+
+.yesand-ampersand {
+	background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;	
+}
+
+
 .yesand-button {
-	background-color: white;
-	border: solid 1px #e62b1e;
+	background-color: transparent;
+	border: solid 3px #e62b1e;
 	border-radius: 4pt;
+	box-shadow: 0 4px 6px rgba(0,0,0,.1);
 	color: #e62b1e;
 	display: inline-block;
 	margin-right: 2vw;
@@ -60,17 +77,16 @@
 
 .yesand-section {
 	background-color: white;
-	left: 0;
+/*	left: 0;
 	padding: 0;
 	position: absolute;
-	top: 0;
+	top: 0;*/
 	transition: 0.4s all ease-in-out;
 }
 
 .yesand-section.active {
 	z-index: 3;
 }
-
 
 .yesand-text {
 	position: absolute;
@@ -89,10 +105,8 @@
 
 .yesand-text h3 {
 	color: #e62b1e;
-/*	border-right: 1vw solid #e62b1e;*/
 	font-size: 8vw;
 	font-weight: 700;
-/*	letter-spacing: .1em;*/
 	margin: 0 auto;
 	overflow: hidden;
 	white-space: nowrap;
@@ -114,4 +128,76 @@
 	border-top: 2vh solid black;
 	margin-bottom: 10vh;
 	width: 40vw;
+}
+
+[data-anchor='yesandSpeakers'] h3 {
+	-moz-text-stroke-width: 3px;
+	-moz-text-stroke-color: #e62b1e;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #e62b1e;
+}
+
+[data-anchor='yesandSpeakers'] .yesand-ampersand {
+	background-image: url(../media/and-redborder.png);
+}
+
+[data-anchor='yesandtheTeam'] {
+	background-color: black;
+}
+
+[data-anchor='yesandtheTeam'] h2 {
+	color: #e62b1e;
+}
+
+[data-anchor='yesandtheTeam'] h3 {
+	color: white;
+}
+
+[data-anchor='yesandtheTeam'] .yesand-ampersand {
+	background-image: url(../media/and-white.png);
+}
+
+[data-anchor='yesandtheTeam'] .yesand-button {
+	border-color: white;
+	color: white;
+}
+
+[data-anchor='yesandtheTeam'] .yesand-button:hover {
+	border-color: #e62b1e;
+}
+
+[data-anchor='yesandtheTeam'] hr,
+[data-anchor='yesandSponsors'] hr {
+	border-color: white;
+}
+
+[data-anchor='yesandSponsors'] {
+	background-color: #e62b1e;
+}
+
+[data-anchor='yesandSponsors'] h2 {
+	color: white;
+}
+
+[data-anchor='yesandSponsors'] h3 {
+	-moz-text-stroke-width: 3px;
+	-moz-text-stroke-color: white;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: white;
+}
+
+[data-anchor='yesandSponsors'] .yesand-ampersand {
+	background-image: url(../media/and-whiteborder.png);
+}
+
+[data-anchor='yesandSponsors'] .yesand-button {
+	background-color: #e62b1e;
+	border: solid 3px white;
+	color: white;
+}
+
+[data-anchor='yesandSponsors'] .yesand-button:hover {
+	background-color: white;
+	border-color: #e62b1e;
+	color: #e62b1e;
 }
