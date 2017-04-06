@@ -119,6 +119,10 @@ h3 {
     transition: all 0.25s ease-in-out;
 }
 
+.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect.mdl-button--raised.send-button {
+    color: white !important;
+}
+
 .sponsor-title {
     font-weight: 700;
 }

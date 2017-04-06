@@ -93,7 +93,8 @@ function loadSpeakers(year) {
     var speakersFromYear = SPEAKER_DB[year];
     for (var i = 0; i < speakersFromYear.length; i++) {
         var name = speakersFromYear[i]["name"];
-        var trapezoidPopup = createPopup(name, year, speakersFromYear[i]["video"], speakersFromYear[i]["desc"]);
+        var trapezoidPopup;
+        trapezoidPopup = createPopup(name, year, speakersFromYear[i]["video"], speakersFromYear[i]["desc"]);
         var cell = createCell(name, year, speakersFromYear[i]["speech"], trapezoidPopup);
         toggleHide(OVERLAY, trapezoidPopup)
         BODY.appendChild(trapezoidPopup);
@@ -109,7 +110,7 @@ function createCell(name, year, speechName, popup) {
     var title = createTitle(name);
     var subtitle = createSubheader(speechName);
     var button = createButton();
-    toggleHide(button, popup)
+    toggleHide(button, popup);
     returnCell.appendChild(media);
     returnCell.appendChild(title);
     returnCell.appendChild(subtitle);
@@ -165,8 +166,12 @@ function createMedia(name, year) {
 // Creates an image for a speaker given their name and year
 function createImage(name, year) {
     var returnImg = document.createElement("img");
-    name = name.toLowerCase().replace(" ", "-");
-    returnImg.src = "./media/speakers-" + year + "/" +  name + ".jpg";
+    if (name === "Rachel Marshall" || name === "Courtney Sheehan") {
+        returnImg.src = "./media/0.jpg"
+    } else {
+        name = name.toLowerCase().replace(" ", "-");
+        returnImg.src = "./media/speakers-" + year + "/" +  name + ".jpg";
+    }
     returnImg.alt = name;
     return returnImg
 }
