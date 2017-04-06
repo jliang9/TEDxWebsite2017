@@ -1,0 +1,122 @@
+/**
+ * @author shinyounglucia, Jenny Liang
+ *
+ * TedxUofW 2017 Website
+ * Custom stylesheet for medium devices (desktops, 992px and up)
+ */
+
+ @media only screen and (min-width: 992px) {
+ 	#about-ted {
+ 		padding-right: 16pt;
+ 	}
+
+ 	#about-contact {
+ 		padding: 0 32px;
+ 	}
+
+ 	.container {
+ 		width: 75%;
+ 	}
+
+ 	#footer p {
+ 		padding-top: 10pt;
+ 	}
+
+ 	#footer,
+	#navbar-main .nav,
+	.navbar-logo, .navbar-logo li, .navbar-logo a {
+		height: 40pt;
+	}
+
+ 	.main {
+ 		margin-top: 96px;
+ 	}
+
+ 	#main-yesand {
+ 		height: calc(100vh - 80pt);
+ 	}
+
+ 	.nav-link {
+ 		padding: 10pt 14px;
+ 	}
+
+	#nav-menu ul {
+		font-size: 16px;
+	}
+
+
+ 	.navbar-brand img {
+ 		padding-top: 8pt;
+ 		padding-bottom: 8pt;
+ 	}
+
+ 	#navbar-main {
+ 		padding-top: 0;
+ 	}
+
+ 	.navbar li.active {
+	    border-bottom: none;
+	}
+
+
+ 	#navbar-main > .row > div {
+ 		margin-top: 0;
+ 	}
+
+ 	#sponsors {
+ 		margin-top: 56px;
+ 	}
+
+	 #navbar-year div ul li {
+		 border-bottom: none;
+	 }
+
+	 #navbar-year div ul li:hover {
+		 text-decoration: none;
+	 }
+
+	.trapezoid > img {
+		display: block;
+		height: 45vh;
+		margin: auto;
+		
+	 }
+
+	 .trapezoid > h1 {
+		 font-size: 2.5em;
+	 }
+
+	 #theme {
+		 color: red;
+		 font-weight: 700;
+		 font-size: 2em;
+	 }
+
+	 #blurb {
+		 margin-left: 1.5em;
+		 margin-right: 1.5em;
+	 }
+
+	 .team-member > p {
+		 margin-bottom: -0.25em;
+		 margin-top:0.25em;
+	 }
+
+	 .name {
+		 font-size: 1.25em;
+		 font-weight: 700;
+		 line-height: 1;
+	 }
+
+	 .team-member-thumbnail {
+		 margin-top: 1em;
+	}
+
+	#yesand {
+		margin-top: 0;
+	}
+
+	.yesand-button {
+		width: 15vw;
+	}
+}

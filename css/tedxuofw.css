@@ -1,0 +1,174 @@
+/*
+ * @author shinyounglucia, Jenny Liang
+ * @override min-1200px.css
+ * 
+ * The overall stylesheet for TedxUofW 2017 website 
+ * 
+ * Colors: #e62b1e (The Ted Red), #000000 (The Ted Black) 
+ *         #313131 (black), #FFFFFF (white), #DEDEDE (gray), #6E6E6E (darker gray)
+ * Typography: Roboto
+ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
+/* Import other stylesheets */
+@import url('animate.css');
+@import url("yesand.css");
+@import url('speakers.css');
+@import url('sponsors.css');
+
+/* Import all the stylesheets */
+@import url("max-576px.css");
+@import url("min-576px.css");
+@import url("min-768px.css");
+@import url("min-992px.css");
+@import url("min-1200px.css");
+
+#about-teams h2,
+.active a {
+    font-weight: 900;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+body {
+/*    background-color: #fafafa;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#footer {
+/*    background-color: #e62b1e;
+    color: #fff;*/
+    text-align: center;
+}
+
+.footer-bg {
+    background-color: #e62b1e;
+    position: relative;
+}
+
+.footer-bg:after {
+    content: '';
+    background: #e62b1e;
+    height: 100%;  
+    left: 0%;
+    position: absolute;
+    top: 0;
+    width: 100%;  
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+    z-index: -1;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.hide {
+    display: none;
+}
+
+.main {
+    min-height: 100%;
+}
+
+/*.mdl-card {
+    width: inherit;
+}*/
+
+.mdl-color--primary {
+    background-color: #e62b1e !important;
+}
+
+.nav-link:hover {
+    color: #e62b1e;
+    font-weight: 700;  
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar a,
+#speakers-years a {
+    color: #6E6E6E;
+}
+
+
+.navbar li.active a,
+#speakers-years li.active a {
+    color: #e62b1e;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-logo,
+#nav-socialmedia {
+    transition: all 0.25s ease-in-out;
+}
+
+.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect.mdl-button--raised.send-button {
+    color: white !important;
+}
+
+.sponsor-title {
+    font-weight: 700;
+}
+
+.sponsor-subtitle {
+    color: #e62b1e;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.sponsor-blurb {
+    padding: 0 32px;
+}
+
+/* using code from http://codepen.io/ritz078/pen/wMPRzr */
+.scroll-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    padding: 0 10px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.title-underline {
+    border-top: 10px solid #FF2B06;
+    margin-left: 0;
+    margin-top: 0;
+    width: 80px;
+}
+
+.animated {
+  -webkit-animation-duration: 0.475s;
+  animation-duration: 0.475s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
