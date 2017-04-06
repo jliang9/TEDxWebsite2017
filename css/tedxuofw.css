@@ -30,6 +30,10 @@
     font-weight: 900;
 }
 
+a:focus {
+    text-decoration: none;
+}
+
 body {
 /*    background-color: #fafafa;*/
     font-family: 'Roboto', sans-serif;
