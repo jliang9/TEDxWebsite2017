@@ -2,7 +2,7 @@
 var TEAM_DB = {
     "Curators": [
         {
-            "name": "Ahrif McSid",
+            "name": "Ahrif McKee",
             "position": "",
             "imgNumber": "23",
         }, 
