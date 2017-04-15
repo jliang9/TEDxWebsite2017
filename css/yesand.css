@@ -82,6 +82,12 @@
 	position: absolute;
 	top: 0;*/
 	transition: 0.4s all ease-in-out;
+	z-index: 1;
+}
+
+.ampersand {
+	z-index: 2;
+	background-image:("./media/red-ampersand.jpg")
 }
 
 .yesand-section.active {

@@ -92,60 +92,58 @@
 		min-width: 100%;
 	}
 
-.logo {
-	height: inherit;
-	width: auto;
-}
+	.logo {
+		height: inherit;
+		width: auto;
+	}
 
-#nav-menu ul {
-	font-size: 10px;
-}
+	#nav-menu ul {
+		font-size: 10px;
+	}
 
-#navbar-main {
-/*	box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);*/
-	padding-bottom: 0;
-	padding-top: 8pt;
-} 
+	#navbar-main {
+	/*	box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);*/
+		padding-bottom: 0;
+		padding-top: 8pt;
+	} 
 
-.main {
-	margin-top: 160pt;
-}
+	.main {
+		margin-top: 160pt;
+	}
 
-#speakers-years > li:first-child a {
-	padding-left: 0;
-}
+	#speakers-years > li:first-child a {
+		padding-left: 0;
+	}
 
-.speakers-card {
-	margin-bottom: 32pt;
-}
+	.speakers-card {
+		margin-bottom: 32pt;
+	}
 
-#speakers-years {
-	margin-bottom: 16pt;
-}
+	#speakers-years {
+		margin-bottom: 16pt;
+	}
 
-.team {
-	margin-bottom: 32pt;
-}
+	.team {
+		margin-bottom: 32pt;
+	}
 
-.team-member-thumbnail {
-	background-color: #DEDEDE; /* temporary */
-	background-image: url('media/team-photos/00.jpg');
-	min-height: 100;
-	min-width: 100%;
-}
+	.team-member-thumbnail {
+		background-color: #DEDEDE; /* temporary */
+		background-image: url('media/team-photos/00.jpg');
+		min-height: 100;
+		min-width: 100%;
+	}
 
-#yesand {
-	margin-top: 96pt;
-}
+	#yesand {
+		margin-top: 96pt;
+	}
 
-.yesand-button {
-	margin-bottom: 32px;
-	min-width: 15vw;
-	width: 156px;
-}
+	.yesand-button {
+		margin-bottom: 32px;
+		min-width: 15vw;
+		width: 156px;
+	}
 
-.yesand-trapezoid {
-    border-left: 60vw solid transparent
-}
-
->>>>>>> lucia-work
+	.yesand-trapezoid {
+		border-left: 60vw solid transparent
+	}
