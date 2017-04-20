@@ -2,6 +2,7 @@
     color: #e62b1e !important;
 }
 
+
 div.mdl-card__media img, div.mdl-card__title > h2 {
     display: block;
 }
@@ -31,14 +32,14 @@ div.mdl-card__supporting-text > h6 {
     line-height: 130%;
 }
 
-div.mdl-card__supporting-text {
+div.mdl-card__supporting-text:not(.contact-card-form) {
     margin-top: -0.75em;
     padding-top: 0;
     padding-bottom: 0;
 }
 
 div.mdl-card__title > h2 {
-    font-size: 2em;
+/*    font-size: 2em;*/
     font-weight: 500;
     line-height: 1;
 }
@@ -48,7 +49,7 @@ div.mdl-card__title > h2 {
     background-color: transparent !important;
 }
 
-.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect, 
+.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect:not(.send-button), 
 .navbar-default .navbar-nav>.active>a, #navbar-year {
     color: #e62b1e;
 }
@@ -62,7 +63,8 @@ div.mdl-card__title > h2 {
     }
 }
 
-@media (max-width: 1100px) {
+/*@media (max-width: 1100px) {*/
+@media (max-width:992px) {
     .mdl-card__actions.mdl-card--border:not(.contact-card-actions), .trapezoid, .modal {
         display: none;
     }
@@ -101,6 +103,12 @@ div.mdl-card__title > h2 {
 
 .modal, .overlay {
     position: fixed;
+}
+
+#theme {
+    color: #e62b1e;
+    font-weight: 700;
+    font-size: 2em;
 }
 
 .trapezoid {
@@ -170,7 +178,7 @@ iframe {
 } 
 
 /* About page*/
-.team-info {
+/*.team-info {
     margin: 0% 1% 40px 1%;
     width: 23%;
 }
@@ -182,4 +190,42 @@ iframe {
 
 .team-name {
     text-align: center;
+}*/
+
+/* New */
+#blurb {
+    margin-top: 24px;    
 }
+
+#speakers {
+    padding: 32px 0;
+}
+
+#speakers .mdl-cell {
+    margin-bottom: 40px;
+}
+
+.trapezoid.animated {
+  -webkit-animation-duration: 0.45s;
+  animation-duration: 0.45s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;    
+}
+
+/*@keyframes extendInLeft {
+  from {
+    width: 0;
+    visibility: visible;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+.extendInLeft {
+  -webkit-animation-name: extendInLeft;
+  animation-name: extendInLeft;
+}*/

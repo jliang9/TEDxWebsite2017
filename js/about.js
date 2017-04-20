@@ -37,6 +37,7 @@ function createMember(member) {
     returnContainer.classList.add("col-12");
     returnContainer.classList.add("col-md-3");
     returnContainer.classList.add("team-member");
+    returnContainer.classList.add("blend-blue");
     addImage(member, returnContainer);
     addName(member, returnContainer);
     addPosition(member, returnContainer);

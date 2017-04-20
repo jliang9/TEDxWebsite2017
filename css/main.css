@@ -1,0 +1,399 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
+/* Animate CSS */
+@import url('animate.css');
+
+/* Speakers CSS */
+@import url('speakers.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h2, h3 {
+	font-weight: 600;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+#about {
+	padding: 16px 0 0 0;
+}
+
+#about .mdl-cell {
+	margin: 16px 0;
+}
+
+.about-blurb {
+	margin-bottom: 40px;
+}
+
+#about-contact-card {
+	width: 100%;
+}
+
+.active {
+	font-weight: 700;
+}
+
+.content-container {
+	margin: auto;
+	padding-top: 40px;
+	width: 83.33%;
+}
+
+.contact-card-actions {
+	padding-top: 16px;
+	padding-left: 0;
+}
+
+.mdl-card__media img {
+	width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+
+.mdl-mini-footer {
+	background-color: #202020;
+	margin-top: 80px;
+}
+
+.mdl-layout__drawer-button {
+	color: black !important;
+}
+
+.mdl-layout__drawer .mdl-layout-title {
+	padding: 16px 16px 0 16px;
+}
+
+.mdl-layout__drawer.is-visible {
+	background-color: #fff;
+}
+
+.mdl-layout__header {
+	background-color: #fff;
+}
+
+.mdl-layout__header .mdl-layout-title {
+	height: inherit;
+	max-height: inherit;
+}
+
+.mdl-layout__header .mdl-layout-title .logo {
+	height: 100%;
+	padding: 8px;
+}
+
+.mdl-navigation a:hover {
+	color: #e62b1e !important;
+}
+
+#navbar-year {
+	padding-left: 0;
+}
+
+#navbar-year .nav-link:first-child {
+	padding-left: 0;
+}
+
+#navbar-year .nav-link {
+	color: black;
+}
+
+#navbar-year .nav-link.active {
+	color: #e62b1e;
+}
+
+#navbar-year .nav-link:hover {
+	color: #e62b1e;
+	text-decoration: underline;
+}
+
+.navigation__socialmedia {
+	padding: 0;
+}
+
+.navigation__socialmedia li {
+	display: inline-block;
+}
+
+.team {
+	margin: 40px 0;
+}
+
+.team-member {
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.team-member .name {
+	font-weight: 600;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+.team-member-thumbnail {
+    transition: all 0.35s ease-in-out;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.title-underline {
+    border-top: 10px solid #e62b1e;
+    margin-left: 0;
+    margin-top: 0;
+    width: 80px;
+}
+
+/* Yes And */
+#yesand {
+	z-index: 1;
+}
+
+.yesand-ampersand {
+	background-image: url("../media/red-amp.jpg");
+	background-size: cover;
+	background-position-x: 0;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: 0.4s all ease-in-out;
+	right: 0;
+	width: 100%;
+}
+
+.yesand-button {
+	background-color: white;
+	border: solid 3px #e62b1e;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0,0,0,.25);
+	color: #e62b1e;
+	display: block;
+	margin-bottom: 16px;
+	margin-right: 2vw;
+	padding: 8px;
+	text-align: center;
+			transition: all 0.175s ease-in-out;
+	-webkit-transition: all 0.175s ease-in-out;
+	width: 160px;
+}
+
+.yesand-button:hover {
+	background-color: #e62b1e;
+	box-shadow: 0 2px 3px rgba(0,0,0,.25);
+	color: white;
+	text-decoration: none;
+}
+
+.yesand-buttons {
+	position: absolute;
+	margin-top: 16px;
+}
+
+.yesand-h3 {
+	color: #e62b1e;
+}
+
+.yesand-section {
+	height: calc(100vh - 56px);
+}
+
+.yesand-section h3 {
+	font-size: 15vw;
+	font-weight: 700;
+	margin: 0 auto;
+	overflow: hidden;
+	margin: 16px;
+	white-space: nowrap; 
+}
+
+.yesand-section h3 img {;
+	width: 80vw;
+}
+
+.yesand-text {
+	padding: 16px;
+	position: absolute;
+	top: 16.66vh;
+}
+
+.yesand-text h2 {
+	font-size: 17vw;
+	font-weight: 700;
+}
+
+.yesand-text h3 {
+	font-size: 8vw;
+	font-weight: 700;
+	margin: 0 auto;
+	overflow: hidden;
+	white-space: nowrap; 
+}
+
+.yesand-text h3 img {
+	width: 80vw;
+}
+
+.yesand-text hr {
+	background-color: black;
+	border-top: 2vh solid black;
+	width: 80vw;
+}
+
+.yesand-trapezoid {
+    border-bottom: calc(100vh - 56px) solid #e62b1e;
+    border-right: 0 solid transparent;
+    border-left: 100vw solid transparent;
+    height: 0;
+    position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.yesand-trapezoid {
+    border-bottom: calc(100vh - 56px) solid #e62b1e;
+    border-right: 0 solid transparent;
+    border-left: 83.33vw solid transparent;
+    height: 0;
+    width: 100%;		
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+	.about-blurb,
+	.sponsor-blurb {
+		text-align: justify;
+		hyphens: auto;
+	}
+
+	#about-contact-card {
+		margin-left: auto;
+		width: 83.33%;
+	}
+
+	.mdl-layout {
+		box-shadow: none;
+	}
+
+	.mdl-layout__header-row {
+		padding: 0;
+	}
+
+	.mdl-layout__header-row .navigation {
+		width: 33.33%
+	}
+
+	.mdl-layout__header-row .navigation:first-child {
+		padding-left: 16px;
+	}
+
+	.mdl-layout__header .mdl-navigation a {
+		color: black;
+		padding-left: 8px;
+	}
+
+	.mdl-mini-footer {
+		margin-top: 120px; 
+	}
+
+	.navigation-center {
+		text-align: center;
+	}
+
+	.navigation-left .mdl-navigation__link {
+		padding: 0 8px;
+	}
+
+	.navigation-right {
+		justify-content: flex-end;
+	}
+
+	.sponsor-blurb {
+		padding-top: 40px;
+		padding-left: 40px;
+	}
+
+	.sponsor-logo {
+		padding: 16px;
+	}
+
+	.title {
+		margin-top: 40px;
+	}
+
+	.yesand-ampersand {
+		width: 50%;	
+	}
+
+	.yesand-button {
+		border: solid 3px #e62b1e;
+		border-radius: 4pt;
+		box-shadow: 0 4px 6px rgba(0,0,0,.25);
+		color: #e62b1e;
+		display: inline-block;
+		margin-right: 2vw;
+		padding: 8px;
+		text-align: center;
+				transition: all 0.175s ease-in-out;
+		-webkit-transition: all 0.175s ease-in-out;
+		width: 16vw;
+	}
+
+	.yesand-button:hover {
+		background-color: #e62b1e;
+		box-shadow: 0 2px 3px rgba(0,0,0,.25);
+		color: white;
+		text-decoration: none;
+	}
+
+	.yesand-text {
+		padding: 16px 32px;
+		top: 8.33vh;
+	}
+
+	.yesand-text h2 {
+		font-size: 12vw;
+		font-weight: 700;
+	}
+
+	.yesand-text h3 img {
+		width: 40vw;
+	}
+
+	.yesand-section h3 {
+		margin-top: 72px;
+		font-size: 8vw;
+		padding: 16px 32px 16px 16px;
+	}
+	
+	.yesand-section h3 img {
+		width: 40vw;
+	}
+
+
+	.yesand-text hr {
+		background-color: black;
+		border-top: 2vh solid black;
+		width: 40vw;
+	}
+
+	.yesand-trapezoid {
+	    border-bottom: calc(100vh - 64px) solid #e62b1e;
+	    border-right: 0 solid transparent;
+	    border-left: 50vw solid transparent;
+	    height: 0;
+	    width: 66.66%;	
+	}
+}
