@@ -13,17 +13,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 
 /* Import other stylesheets */
-@import url('animate.css');
-@import url("yesand.css");
-@import url('speakers.css');
-@import url('sponsors.css');
+@import url('animate_1.css');
+@import url("yesand_1.css");
+@import url('speakers_1.css');
+@import url('sponsors_1.css');
 
 /* Import all the stylesheets */
-@import url("max-576px.css");
-@import url("min-576px.css");
-@import url("min-768px.css");
-@import url("min-992px.css");
-@import url("min-1200px.css");
+@import url("max-576px_1.css");
+@import url("min-576px_1.css");
+@import url("min-768px_1.css");
+@import url("min-992px_1.css");
+@import url("min-1200px_1.css");
 
 #about-teams h2,
 .active a {

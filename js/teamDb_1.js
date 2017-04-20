@@ -94,11 +94,6 @@ var TEAM_DB = {
             "imgNumber": "25",
         },
         {
-            "name": "Shreya Tewari",
-            "position": "",
-            "imgNumber": "0",
-        }, 
-        {
             "name": "Maren Anderson",
             "position": "",
             "imgNumber": "22",
@@ -112,6 +107,11 @@ var TEAM_DB = {
             "name": "Katie Chun",
             "position": "",
             "imgNumber": "21",
+        }, 
+        {
+            "name": "Anna Sugiyama",
+            "position": "",
+            "imgNumber": "0",
         }
     ],
     "Production": [

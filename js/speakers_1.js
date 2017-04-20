@@ -166,12 +166,8 @@ function createMedia(name, year) {
 // Creates an image for a speaker given their name and year
 function createImage(name, year) {
     var returnImg = document.createElement("img");
-    if (name === "Rachel Marshall" || name === "Courtney Sheehan") {
-        returnImg.src = "./media/0.jpg"
-    } else {
-        name = name.toLowerCase().replace(" ", "-");
-        returnImg.src = "./media/speakers-" + year + "/" +  name + ".jpg";
-    }
+    name = name.toLowerCase().replace(" ", "-");
+    returnImg.src = "./media/speakers-" + year + "/" +  name + ".jpg";
     returnImg.alt = name;
     return returnImg
 }
