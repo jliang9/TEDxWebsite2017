@@ -76,9 +76,6 @@ h3 {
     font-weight: 700;
 }
 
-.hide {
-    display: none;
-}
 
 .main {
     min-height: 100%;
@@ -162,13 +159,4 @@ h3 {
     margin-left: 0;
     margin-top: 0;
     width: 80px;
-}
-
-.animated {
-  -webkit-animation-duration: 0.475s;
-  animation-duration: 0.475s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
 }

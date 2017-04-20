@@ -11,6 +11,8 @@
 $(function() {
 	"use strict";
 
+	var buttonPosition;
+
 	$(document).ready(function() {
 		$('#yesand').fullpage({
 			// Navigation
@@ -26,44 +28,64 @@ $(function() {
 				$('.yesand-section').eq(slideIndex).addClass('active');
 		    },
 
-		    // onLeave: function(index, nextIndex, direction) {
-		    // 	var leavingSection = $(this);
-		    // 	$('.yesand-text', leavingSection).removeClass('animated slideInDown');
-		    // 	$('.yesand-background', leavingSection).removeClass('animated slideInUp');
+		    onLeave: function(index, nextIndex, direction) {
+		    	//going to section 1
+		    	if (index == 2 && direction == 'up') {
+		    		// Remove the ampersand
+		    		$('.yesand-ampersand').removeClass('fadeInRight');
+		    		$('.yesand-ampersand').addClass('fadeOutRight');
+		    		$('.yesand-ampersand').css('opacity', '0');
 
-		    // 	var sections = document.querySelectorAll('.yesand-section');
+		    		// Add the trapezoid back in
+		    		$('.yesand-trapezoid').removeClass('fadeOutRight');
+		    		$('.yesand-trapezoid').addClass('fadeInRight');
 
-		    // 	// going to section 1
-		    // 	if (index == 2 && direction == 'up') {
-		    // 		var section1 = sections[0];
-		    // 		$('.yesand-background', section1).addClass('animated slideInUp');
-		    // 		$('.yesand-text', section1).addClass('animated slideInDown');
-		    // 	}
+		    		// Remove white background
+		    		$('.yesand-section h3').css('background-color', 'transparent');
+		    	}
 
-		    // 	// going to section 2
-		    // 	if (index == 1 && direction == 'down' || 
-		    // 		index == 3 && direction == 'up') {
-		    // 		var section2 = sections[1];
-		    // 		$('.yesand-background', section2).addClass('animated slideInUp');
-		    // 		$('.yesand-text', section2).addClass('animated slideInDown');
-		    // 	}
+			    // 	going to section 2
+		    	if (index == 1 && direction == 'down') {
+		    		// Remove the trapezoid
+		    		$('.yesand-trapezoid').removeClass('fadeInRight');
+		    		$('.yesand-trapezoid').addClass('fadeOutRight');
 
-		    // 	// going to section 3
-		    // 	if (index == 2 && direction == 'down' || 
-		    // 		index == 4 && direction == 'up') {
-		    // 		var section3 = sections[2];
-		    // 		$('.yesand-background', section3).addClass('animated slideInUp');
-		    // 		$('.yesand-text', section3).addClass('animated slideInDown');
-		    // 	}
+		    		// Add the ampersand
+		    		$('.yesand-ampersand').css('opacity', '1');
+		    		$('.yesand-ampersand').removeClass('fadeOutRight');
+		    		$('.yesand-ampersand').addClass('animated fadeInRight');
 
-		    // 	// going to section 4
-		    // 	if (index == 3 && direction == 'down') {
-		    // 		var section4 = sections[3];
-		    // 		$('.yesand-background', section4).addClass('animated slideInUp');
-		    // 		$('.yesand-text', section4).addClass('animated slideInDown');
-		    // 	}
-		    // }
-		    
+		    		if (window.matchMedia('(max-width: 992px)').matches) {
+		    			$('.yesand-section h3').css('background-color', 'white');
+		    		}
+		    	}
+
+	    		$('.active .yesand-buttons').css('top', buttonPosition.top);
+	    		$('.active .yesand-buttons').css('left', buttonPosition.left);
+			}
 		});
+
+		reposition();
+		$(window).resize(reposition);
 	});
+
+	function reposition() {
+		// Revert the position of the original buttons
+		$('.yesand-section .yesand-buttons').css('display', 'none');
+
+		// Get CSS of the original
+		var yesandH3Original = $("#yesand-h3-original").offset();
+		buttonPosition = $("#yesand-buttons-original").offset();
+
+		// Set the attribute to the fullpage.js elements
+		$('.yesand-section .yesand-buttons').css('top', buttonPosition.top);
+		$('.yesand-section .yesand-buttons').css('left', buttonPosition.left);
+		$('.yesand-section .yesand-buttons').css('display', 'block');
+		$('.yesand-h3').css('top', yesandH3Original.top);
+		$('.yesand-h3').css('left', yesandH3Original.left);
+
+		// Hide the original
+		$("#yesand-buttons-original").css('visibility', 'hidden');
+		$("#yesand-h3-original").css('visibility', 'hidden');
+	}
 });

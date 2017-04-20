@@ -13,6 +13,15 @@
 ** Code modified by @shinyounglucia
 */
 
+.animated {
+  -webkit-animation-duration: 0.65s;
+  animation-duration: 0.65s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
 /* SLIDENAV STYLES - fullPage.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #fp-nav ul li a span, 
@@ -38,19 +47,14 @@
 
 /* Yes And Slides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.knockout-text {
-	color: none;
-	-moz-text-fill-color: transparent; /* Will override color (regardless of order) */
-	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-}
-
 .yesand-ampersand {
 	background-size: cover;
     height: 100%;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     width: 50%;	
+    z-index: 2;
 }
 
 
@@ -58,7 +62,7 @@
 	background-color: transparent;
 	border: solid 3px #e62b1e;
 	border-radius: 4pt;
-	box-shadow: 0 4px 6px rgba(0,0,0,.1);
+	box-shadow: 0 4px 6px rgba(0,0,0,.25);
 	color: #e62b1e;
 	display: inline-block;
 	margin-right: 2vw;
@@ -71,6 +75,7 @@
 
 .yesand-button:hover {
 	background-color: #e62b1e;
+	box-shadow: 0 2px 3px rgba(0,0,0,.25);
 	color: white;
 	text-decoration: none;
 }
@@ -87,17 +92,22 @@
 
 .ampersand {
 	z-index: 2;
-	background-image:("./media/red-ampersand.jpg")
+	background-image:("./media/red-amp.jpg");
 }
 
 .yesand-section.active {
 	z-index: 3;
 }
 
+.yesand-section .yesand-text h3 {
+	padding-top: 15vh;
+}
+
 .yesand-text {
 	position: absolute;
 	left: 2.5vw;
 	top: 15vh;
+
 }
 
 .yesand-text {
@@ -134,76 +144,28 @@
 	border-top: 2vh solid black;
 	margin-bottom: 10vh;
 	width: 40vw;
+	margin-top: calc(18vh);
 }
 
-[data-anchor='yesandSpeakers'] h3 {
+.yesand-text h3 {
 	-moz-text-stroke-width: 3px;
 	-moz-text-stroke-color: #e62b1e;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: #e62b1e;
 }
 
-[data-anchor='yesandSpeakers'] .yesand-ampersand {
-	background-image: url(../media/and-redborder.png);
+.yesand-text a {
+	margin-top: 18vh;
 }
 
-[data-anchor='yesandtheTeam'] {
-	background-color: black;
+.yesand-ampersand {
+	background-image: url(../media/red-amp.jpg);
+	opacity: 0;
+	transition: all 1s ease-in-out;
 }
 
-[data-anchor='yesandtheTeam'] h2 {
-	color: #e62b1e;
-}
-
-[data-anchor='yesandtheTeam'] h3 {
-	color: white;
-}
-
-[data-anchor='yesandtheTeam'] .yesand-ampersand {
-	background-image: url(../media/and-white.png);
-}
-
-[data-anchor='yesandtheTeam'] .yesand-button {
-	border-color: white;
-	color: white;
-}
-
-[data-anchor='yesandtheTeam'] .yesand-button:hover {
-	border-color: #e62b1e;
-}
-
-[data-anchor='yesandtheTeam'] hr,
-[data-anchor='yesandSponsors'] hr {
-	border-color: white;
-}
-
-[data-anchor='yesandSponsors'] {
-	background-color: #e62b1e;
-}
-
-[data-anchor='yesandSponsors'] h2 {
-	color: white;
-}
-
-[data-anchor='yesandSponsors'] h3 {
-	-moz-text-stroke-width: 3px;
-	-moz-text-stroke-color: white;
-	-webkit-text-stroke-width: 3px;
-	-webkit-text-stroke-color: white;
-}
-
-[data-anchor='yesandSponsors'] .yesand-ampersand {
-	background-image: url(../media/and-whiteborder.png);
-}
-
-[data-anchor='yesandSponsors'] .yesand-button {
-	background-color: #e62b1e;
-	border: solid 3px white;
-	color: white;
-}
-
-[data-anchor='yesandSponsors'] .yesand-button:hover {
-	background-color: white;
-	border-color: #e62b1e;
-	color: #e62b1e;
+@media only screen and (min-width: 576px) {
+	.yesand-text {
+		top: 50vh;
+	}
 }

@@ -20,7 +20,7 @@ var BODY = document.querySelector("body");
 var OVERLAY = document.querySelector(".overlay");
 
 // Retrieve list items representing years
-var YEARS = document.querySelectorAll("main nav div ul li a");
+var YEARS = document.querySelectorAll("#navbar-year div ul li a");
 
 window.onload = function() {
 
@@ -133,7 +133,7 @@ function createPopup(name, year, url, desc) {
     var returnPopup = document.createElement("div");
     returnPopup.classList.add("modal", "hide");
     var trap = document.createElement("div");
-    trap.classList.add("trapezoid", "hide");
+    trap.classList.add("trapezoid", "hide", "animated", "fadeInLeft");
     var header = document.createElement("h1");
     header.innerText = name.toUpperCase();
     var popupMedia;
