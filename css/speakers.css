@@ -23,7 +23,7 @@ div.mdl-card__supporting-text > h6, div.mdl-card__title > h2 {
     margin-left: 3%;
 }
 
-div.mdl-card__media img {
+div.mdl-card__media img, .modal {
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,6 +129,10 @@ div.mdl-card__title > h2 {
     line-height: 1;
     margin-top: 1.25em;
     text-align: center;
+}
+
+.trapezoid > img {
+    height: 30vw;
 }
 
 .trapezoid > p {
