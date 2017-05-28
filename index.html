@@ -19,7 +19,7 @@
         <!-- Fullpage CSS by Ritesh Kumar (http://codepen.io/ritz078/pen/wMPRzr) -->
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css'>
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/main.css?v=11">
+        <link rel="stylesheet" href="css/main.css?v=12">
     </head>
     <body>
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -69,7 +69,7 @@
                     </nav>
                 </div>
             </header>
-            <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <div class="mdl-layout__drawer mdl-layout--small-screen-only" id="navbar-mobile">
                 <div class="mdl-layout-title">
                     <img src="media/logo.jpg" 
                          alt="TedxUofW" 
@@ -118,48 +118,57 @@
             <main class="mdl-layout__content main">
                 <div class="yesand-ampersand animated"></div>
                 <div class="yesand-trapezoid animated"></div>
-
                 <div class="yesand-text">
                     <h2>YES AND</h2>
-                    <h3 id="yesand-h3-original">
-                        <img src="media/logo-transparent.png" 
-                             alt="TedxUofW"/>                         
-                    </h3>
-                    <hr/> 
-                    <div class="yesand-buttons" id="yesand-buttons-original">
-
-                        <a href="http://bit.ly/tedxuofw" class="yesand-button">TEDxUofW APP</a> 
-                    </div>     
+                    <div>
+                        <h3 id="yesand-h3-original">
+                            <img src="media/logo-transparent.png" 
+                                 alt="TedxUofW"/>                         
+                        </h3>
+                        <hr/> 
+                        <div class="yesand-buttons" id="yesand-buttons-original">
+                            <a href="https://tedxuofw.ticketleap.com/2017/" class="yesand-button">ATTEND</a>
+                            <a href="http://bit.ly/tedxuofw" class="yesand-button">TEDxUofW APP</a> 
+                        </div>  
+                    </div>   
                 </div>
             </main>
         </div>    
        <div id="yesand">
             <section class="yesand-section">
-                <h3 class="yesand-h3">
-                    <img src="media/logo-transparent.png" alt="TedxUofW"/> 
-                </h3>
-                <div class="yesand-buttons">
-
-                    <a href="http://bit.ly/tedxuofw" class="yesand-button">TEDxUofW APP</a> 
-                </div>                       
+                <div class="yesand-section-texts">
+                    <h3 class="yesand-h3">
+                        <img src="media/logo-transparent.png" alt="TedxUofW"/> 
+                    </h3>
+                    <div class="yesand-buttons">
+                        <a href="https://tedxuofw.ticketleap.com/2017/" class="yesand-button">ATTEND</a>
+                        <a href="http://bit.ly/tedxuofw" class="yesand-button">TEDxUofW APP</a> 
+                    </div> 
+                </div>                     
             </section>
             <section class="yesand-section">
-                <h3 class="yesand-h3">SPEAKERS</h3>
-                <div class="yesand-buttons">
-                    <a href="speakers.html" class="yesand-button">LEARN MORE</a>
+                <div class="yesand-section-texts">
+                    <h3 class="yesand-h3">SPEAKERS</h3>
+                    <div class="yesand-buttons">
+                        <a href="speakers.html" class="yesand-button">LEARN MORE</a>
+                    </div>
                 </div>
             </section>
             <section class="yesand-section">
-                <h3 class="yesand-h3">THE TEAM</h3>
-                <div class="yesand-buttons">
-                    <a href="about.html" class="yesand-button">ABOUT</a>
+                <div class="yesand-section-texts">
+                    <h3 class="yesand-h3">THE TEAM</h3>
+                    <div class="yesand-buttons">
+                        <a href="about.html" class="yesand-button">ABOUT</a>
+                    </div>
                 </div>
             </section>
             <section class="yesand-section">
-                <h3 class="yesand-h3">THANK YOU</h3>
-                <div class="yesand-buttons">
-                    <a href="sponsors.html" class="yesand-button">OUR SPONSORS</a>
-                    <a href="#confetti" class="yesand-button">&amp; YOU!</a>
+                <div class="yesand-section-texts">
+                    <h3 class="yesand-h3">THANK YOU</h3>
+                    <div class="yesand-buttons">
+                        <a href="sponsors.html" class="yesand-button">OUR SPONSORS</a>
+                        <a href="#confetti" class="yesand-button">&amp; YOU!</a>
+                    </div>
                 </div>
             </section>
         </div>

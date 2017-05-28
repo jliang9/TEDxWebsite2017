@@ -210,12 +210,17 @@ img {
 	height: calc(100vh - 56px);
 }
 
+.yesand-section-texts h3 {
+	position: absolute;
+	margin: 0;
+}
+
+
 .yesand-section h3 {
 	font-size: 15vw;
 	font-weight: 700;
 	margin: 0 auto;
 	overflow: hidden;
-	margin: 16px;
 	white-space: nowrap; 
 }
 
@@ -226,7 +231,7 @@ img {
 .yesand-text {
 	padding: 16px;
 	position: absolute;
-	top: 16.66vh;
+	top: 15vh;
 }
 
 .yesand-text h2 {
@@ -237,7 +242,7 @@ img {
 .yesand-text h3 {
 	font-size: 8vw;
 	font-weight: 700;
-	margin: 0 auto;
+	margin: 16px auto;
 	overflow: hidden;
 	white-space: nowrap; 
 }
@@ -248,8 +253,8 @@ img {
 
 .yesand-text hr {
 	background-color: black;
-	border-top: 2vh solid black;
-	margin-top: 4rem;
+	border-top: none;
+	height: 2vh;
 	width: 80vw;
 }
 
@@ -374,9 +379,8 @@ img {
 	}
 
 	.yesand-section h3 {
-		margin-top: 72px;
 		font-size: 8vw;
-		padding: 16px 32px 16px 16px;
+		padding: 16px 32px 16px 0px;
 	}
 	
 	.yesand-section h3 img {
@@ -398,4 +402,9 @@ img {
 	    height: 0;
 	    width: 66.66%;	
 	}
+}
+
+/* test */
+#navbar-mobile {
+	z-index: 100;
 }

@@ -78,11 +78,11 @@ $(function() {
 		buttonPosition = $("#yesand-buttons-original").offset();
 
 		// Set the attribute to the fullpage.js elements
-		$('.yesand-section .yesand-buttons').css('top', buttonPosition.top);
-		$('.yesand-section .yesand-buttons').css('left', buttonPosition.left);
-		$('.yesand-section .yesand-buttons').css('display', 'block');
 		$('.yesand-h3').css('top', yesandH3Original.top);
 		$('.yesand-h3').css('left', yesandH3Original.left);
+		$('.yesand-buttons').css('top', buttonPosition.top);
+		$('.yesand-buttons').css('left', buttonPosition.left);
+		$('.yesand-buttons').css('display', 'block');
 
 		// Hide the original
 		$("#yesand-buttons-original").css('visibility', 'hidden');
