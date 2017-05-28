@@ -162,7 +162,7 @@ img {
 }
 
 .yesand-ampersand {
-	background-image: url("../media/red-amp.jpg");
+	background-image: url("../media/red-amp.png");
 	background-size: cover;
 	background-position-x: 0;
 	height: 100%;
@@ -249,6 +249,7 @@ img {
 .yesand-text hr {
 	background-color: black;
 	border-top: 2vh solid black;
+	margin-top: 4rem;
 	width: 80vw;
 }
 
@@ -386,6 +387,7 @@ img {
 	.yesand-text hr {
 		background-color: black;
 		border-top: 2vh solid black;
+		margin-top: 0.5rem;
 		width: 40vw;
 	}
 
