@@ -116,13 +116,8 @@ var TEAM_DB = {
     ],
     "Production": [
         {
-            "name": " Rianne Peterson",
-            "position": "Production Manager",
-            "imgNumber": "24",
-        },
-        {
             "name": "Sierra Simmerman",
-            "position": "Guest Experience",
+            "position": "Production Manager",
             "imgNumber": "11",
         }, 
         {
@@ -134,11 +129,6 @@ var TEAM_DB = {
             "name": "Harsh Keswani",
             "position": "Tech Lead",
             "imgNumber": "12",
-        },
-        {
-            "name": "Arjun Lalwani",
-            "position": "Tech Specialist",
-            "imgNumber": "10",
         },
         {
             "name": "Ian Yu",
